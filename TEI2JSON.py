@@ -57,6 +57,4 @@ def create_json(rng_file):
 
 
 if __name__ == '__main__':
-    # create_json('myTEI-4.rng')
-    findatt()
-    # findmodel()
+    create_json('myTEI-4.rng')
