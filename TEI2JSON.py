@@ -7,64 +7,6 @@ import json
 from collections import OrderedDict
 import csv
 
-
-def findatt():
-    file = open('myTEI-4.rng', mode='r', encoding='UTF-8')
-    xml = file.read()
-    file.close()
-    soup2 = BeautifulSoup(xml, 'xml')
-    tab_att = []
-    for ref in soup2.find_all('define'):
-        """
-        reference = ref.find('ref')
-        # print(reference)
-        if reference:
-            attribut = reference.get('name')
-            if str(attribut).startswith("tei_att"):
-                print(attribut)
-        """
-        if ref:
-            attribut = ref.get('name')
-            if str(attribut).startswith("tei_att"):
-                tab_att.append(attribut)
-    print(tab_att)
-
-
-def findmodel():
-    file = open('myTEI-4.rng', mode='r', encoding='UTF-8')
-    xml = file.read()
-    file.close()
-    soup2 = BeautifulSoup(xml, 'xml')
-    tab_model = []
-    tab_ref = []
-    tab = {}
-    content = {'modeles': []}
-    for model in soup2.find_all('define'):
-        modele = OrderedDict()
-        if model:
-            mod = model.get('name')
-            if str(mod).startswith("tei_model"):
-                ref = model.find_all('ref')
-                if ref:
-                    modele['modele'] = mod
-                    content['modeles'].append(modele)
-    print(json.dumps(content))
-                    # print(mod)
-                    # print(ref)
-                # tab_model.append(mod)
-                # tab_ref.append(ref)
-                    #tab[mod] = ref
-    # print(tab)
-    # print(tab_model)
-    """
-    with open("sortie_model.csv", 'wb') as modeles:
-            sortie = csv.writer(modeles, delimiter=',')
-            for key, value in tab.values():
-                sortie.writerow(key)
-                sortie.writerow(value)
-    """
-
-
 def create_json(rng_file):
     file = open(rng_file, mode='r', encoding='UTF-8')
     xml = file.read()
