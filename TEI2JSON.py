@@ -5,47 +5,10 @@
 @author : Myriam EL HELOU
 """
 
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 from bs4 import BeautifulSoup
 import json
 from collections import OrderedDict
-
-
-def findmodel():
-    file = open('myTEI-4.rng', mode='r', encoding='UTF-8')
-    xml = file.read()
-    file.close()
-    soup2 = BeautifulSoup(xml, 'xml')
-    tab_model = []
-    tab_ref = []
-    tab = {}
-    content = {'modeles': []}
-    for model in soup2.find_all('define'):
-        modele = OrderedDict()
-        if model:
-            mod = model.get('name')
-            if str(mod).startswith("tei_model"):
-                ref = model.find_all('ref')
-                if ref:
-                    modele['modele'] = mod
-                    content['modeles'].append(modele)
-    print(json.dumps(content))
-                    # print(mod)
-                    # print(ref)
-                # tab_model.append(mod)
-                # tab_ref.append(ref)
-                    #tab[mod] = ref
-    # print(tab)
-    # print(tab_model)
-    """
-    with open("sortie_model.csv", 'wb') as modeles:
-            sortie = csv.writer(modeles, delimiter=',')
-            for key, value in tab.values():
-                sortie.writerow(key)
-                sortie.writerow(value)
-    """
+import sys
 
 
 def create_json(rng_file):
@@ -71,17 +34,8 @@ def create_json(rng_file):
                 #ajouter la documentation à l'élement
                 element['documentation'] = documentation.string
             element['attributs'] = []
-            #liste qui contiendra les attributs (attributes)
-            list_attributs = []
-            # liste qui contiendra les attribut (attribute)
-            list_ref = []
-            #liste des noms des attributs
-            list_name = []
-            #liste des documentations
-            list_doc = []
             #récupération des attributs externes
             for att in link.find_all('ref'):
-
                 if att:
                     attributs = att.get('name')
                     if str(attributs).startswith("tei_att"):
@@ -95,7 +49,45 @@ def create_json(rng_file):
                                         if ref_att:
                                             ref_name = ref_att.get('name')
                                             if ref_name.endswith('.attributes'):
-                                                list_ref.append(ref_name)
+                                                for define_atts in soup.find_all('define'):
+                                                    if define_atts:
+                                                        define_atts_name = define_atts.get('name')
+                                                        if define_atts_name == ref_name:
+                                                            for deff in define_atts.find_all('ref'):
+                                                                deff_name = deff.get('name')
+                                                                attribute3 = OrderedDict()
+                                                                for define_att_ref_2 in soup.find_all('define'):
+                                                                    if define_att_ref_2:
+                                                                        define_att_ref_name2 = define_att_ref_2.get('name')
+                                                                        if define_att_ref_name2 == deff_name:
+                                                                            opt = define_att_ref_2.find('optional')
+                                                                            if opt:
+                                                                                attr = opt.find('attribute')
+                                                                                if attr:
+                                                                                    name_attr = attr.get('name')
+                                                                                    list_name.append(name_attr)
+                                                                                    choice = attr.find('choice')
+                                                                                    liste_values = []
+                                                                                    if choice:
+                                                                                        type2 = 'Enumerated'
+                                                                                        for value in choice.find_all(
+                                                                                                'value'):
+                                                                                            liste_values.append(
+                                                                                                value.string)
+                                                                                    else:
+                                                                                        type2 = 'String'
+                                                                                        liste_values.append('NONE')
+                                                                                    attribute3['key'] = name_attr
+                                                                                    attribute3['type'] = type2
+                                                                                    attribute3['required'] = False
+                                                                                    documentation = attr.find(
+                                                                                        'a:documentation')
+                                                                                    if documentation:
+                                                                                        attribute3['documentation'] = documentation.string
+  
+                                                                                    attribute3['value'] = liste_values
+                                                                                element['attributs'].append(attribute3)
+                                         
                                            #obtenir les noms des attribute que contiennet les grands "attributes'
                                             else:
                                                 attribute2 = OrderedDict()
@@ -124,16 +116,8 @@ def create_json(rng_file):
                                                                     documentation = attr.find('a:documentation')
                                                                     if documentation:
                                                                         attribute2['documentation'] = documentation.string
-                                                                        list_doc.append(documentation.string)
                                                                     attribute2['value'] = liste_values
-                                                                # print(attribute2)
                                                                 element['attributs'].append(attribute2)
-                                            #list_ref.append(ref_name2)
-            print(name)
-            #print(list_attributs)
-            print(list_ref)
-            #print(list_name)
-            #print(list_doc)
             #récupération des attributs qui se trouvent dans l'élement
             for attribut in link.find_all('attribute'):
                 attribute = OrderedDict()
@@ -159,7 +143,6 @@ def create_json(rng_file):
                 element['attributs'].append(attribute)
             #création de l'élement childrens dans le json
             element['childrens'] = []
-
         #ajout de la totalité du contenu de l'élement dans le json
         content['elements'].append(element)
     #print(json.dumps(content))
@@ -169,4 +152,5 @@ def create_json(rng_file):
 
 
 if __name__ == '__main__':
-    create_json('myTEI-4.rng')
+    create_json("myTEI-4.rng")
+    #create_json(sys.argv[1])
