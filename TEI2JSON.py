@@ -5,9 +5,48 @@
 @author : Myriam EL HELOU
 """
 
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 from bs4 import BeautifulSoup
 import json
 from collections import OrderedDict
+
+
+def findmodel():
+    file = open('myTEI-4.rng', mode='r', encoding='UTF-8')
+    xml = file.read()
+    file.close()
+    soup2 = BeautifulSoup(xml, 'xml')
+    tab_model = []
+    tab_ref = []
+    tab = {}
+    content = {'modeles': []}
+    for model in soup2.find_all('define'):
+        modele = OrderedDict()
+        if model:
+            mod = model.get('name')
+            if str(mod).startswith("tei_model"):
+                ref = model.find_all('ref')
+                if ref:
+                    modele['modele'] = mod
+                    content['modeles'].append(modele)
+    print(json.dumps(content))
+                    # print(mod)
+                    # print(ref)
+                # tab_model.append(mod)
+                # tab_ref.append(ref)
+                    #tab[mod] = ref
+    # print(tab)
+    # print(tab_model)
+    """
+    with open("sortie_model.csv", 'wb') as modeles:
+            sortie = csv.writer(modeles, delimiter=',')
+            for key, value in tab.values():
+                sortie.writerow(key)
+                sortie.writerow(value)
+    """
+
 
 def create_json(rng_file):
     file = open(rng_file, mode='r', encoding='UTF-8')
@@ -42,7 +81,7 @@ def create_json(rng_file):
             list_doc = []
             #récupération des attributs externes
             for att in link.find_all('ref'):
-                attribute2 = OrderedDict()
+
                 if att:
                     attributs = att.get('name')
                     if str(attributs).startswith("tei_att"):
@@ -56,12 +95,10 @@ def create_json(rng_file):
                                         if ref_att:
                                             ref_name = ref_att.get('name')
                                             if ref_name.endswith('.attributes'):
-                                                for ref_att2 in ref_att.find_all('ref'):
-                                                    if ref_att2:
-                                                        ref_name2 = ref_att2.get('name')
-                                                        list_ref.append(ref_name2)
+                                                list_ref.append(ref_name)
                                            #obtenir les noms des attribute que contiennet les grands "attributes'
                                             else:
+                                                attribute2 = OrderedDict()
                                                 for define_att_ref in soup.find_all('define'):
                                                     if define_att_ref:
                                                         define_att_ref_name = define_att_ref.get('name')
@@ -81,21 +118,20 @@ def create_json(rng_file):
                                                                     else:
                                                                         type2 = 'String'
                                                                         liste_values.append('NONE')
+                                                                    attribute2['key'] = name_attr
+                                                                    attribute2['type'] = type2
+                                                                    attribute2['required'] = False
                                                                     documentation = attr.find('a:documentation')
                                                                     if documentation:
-                                                                        attribute2['key'] = name_attr
-                                                                        attribute2['type'] = type2
-                                                                        attribute2['required'] = False
                                                                         attribute2['documentation'] = documentation.string
                                                                         list_doc.append(documentation.string)
-                                                                        attribute2['value'] = liste_values
-
-                                                            print(attribute2)
-                                                            #element['attributs'].append(attribute2)
-                                                list_ref.append(ref_name)
+                                                                    attribute2['value'] = liste_values
+                                                                # print(attribute2)
+                                                                element['attributs'].append(attribute2)
+                                            #list_ref.append(ref_name2)
             print(name)
             #print(list_attributs)
-            # print(list_ref)
+            print(list_ref)
             #print(list_name)
             #print(list_doc)
             #récupération des attributs qui se trouvent dans l'élement
