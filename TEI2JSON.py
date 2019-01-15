@@ -4,6 +4,7 @@
 """
 @author : Myriam EL HELOU
 """
+
 from bs4 import BeautifulSoup
 import json
 from collections import OrderedDict
@@ -35,6 +36,10 @@ def create_json(rng_file):
             list_attributs = []
             # liste qui contiendra les attribut (attribute)
             list_ref = []
+            #liste des noms des attributs
+            list_name = []
+            #liste des documentations
+            list_doc = []
             #récupération des attributs externes
             for att in link.find_all('ref'):
                 if att:
@@ -54,11 +59,27 @@ def create_json(rng_file):
                                                     if ref_att2:
                                                         ref_name2 = ref_att2.get('name')
                                                         list_ref.append(ref_name2)
+                                           #obtenir les noms des attribute que contiennet les grands "attributes'
                                             else:
+                                                for define_att_ref in soup.find_all('define'):
+                                                    if define_att_ref:
+                                                        define_att_ref_name = define_att_ref.get('name')
+                                                        if define_att_ref_name == ref_name:
+                                                            opt = define_att_ref.find('optional')
+                                                            if opt:
+                                                                attr = opt.find('attribute')
+                                                                if attr:
+                                                                    name_attr = attr.get('name')
+                                                                    list_name.append(name_attr)
+                                                                    documentation = attr.find('a:documentation')
+                                                                    if documentation:
+                                                                        list_doc.append(documentation.string)
                                                 list_ref.append(ref_name)
             print(name)
             print(list_attributs)
             print(list_ref)
+            print(list_name)
+            print(list_doc)
             #récupération des attributs qui se trouvent dans l'élement
             for attribut in link.find_all('attribute'):
                 attribute = OrderedDict()
@@ -95,4 +116,3 @@ def create_json(rng_file):
 
 if __name__ == '__main__':
     create_json('myTEI-4.rng')
-
