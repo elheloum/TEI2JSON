@@ -27,14 +27,11 @@ def create_json(rng_file):
         if name:
             # attribuer à l'élement tag du json le nom de l'élement comme valeur
             element['tag'] = name
-            print(name)
-            element['self-closed'] = False
             # chercher la documentation de l'élement
             documentation = link.find('a:documentation')
             if documentation:
                 # ajouter la documentation à l'élement
                 element['documentation'] = documentation.string
-                print(documentation.string)
             element['attributs'] = []
             # récupération des attributs externes
             for att in link.find_all('ref'):
@@ -279,6 +276,7 @@ def create_json(rng_file):
     with open("sortie_{0}".format(rng_file)+".json", mode='w', encoding='UTF-8') as output:
         output.write(json.dumps(content, indent=4, sort_keys=False))
 
+
 if __name__ == '__main__':
     create_json("myTEI-3.rng")
-    #create_json(sys.argv[1])
+    # create_json(sys.argv[1])
