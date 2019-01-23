@@ -28,11 +28,13 @@ def create_json(rng_file):
             # attribuer à l'élement tag du json le nom de l'élement comme valeur
             element['tag'] = name
             print(name)
+            element['self-closed'] = False
             # chercher la documentation de l'élement
             documentation = link.find('a:documentation')
             if documentation:
                 # ajouter la documentation à l'élement
                 element['documentation'] = documentation.string
+                print(documentation.string)
             element['attributs'] = []
             # récupération des attributs externes
             for att in link.find_all('ref'):
