@@ -262,6 +262,8 @@ def create_json(rng_file):
             for text in link.find_all('text'):
                 if text:
                     element['childrens'].append("PCDATA")
+            element['childrens'] = list(set(element['childrens']))
+
             """
             '''élimination des doublons'''
             children = list(set(children))
