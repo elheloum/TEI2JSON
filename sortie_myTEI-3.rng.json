@@ -1,6 +1,5 @@
 {
     "elements": [
-        {},
         {
             "tag": "p",
             "documentation": "(paragraph) marks paragraphs in prose. [3.1. Paragraphs 7.2.5. Speech Contents]",
