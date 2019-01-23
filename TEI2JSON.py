@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-@author : Myriam EL HELOU and Sami BOUHOUCHE 
+@author : Myriam EL HELOU and Sami BOUHOUCHE :)
 """
 
 from bs4 import BeautifulSoup
