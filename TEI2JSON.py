@@ -213,7 +213,8 @@ def create_json(rng_file):
                                                                                             attr = opt.find('attribute')
                                                                                             if attr:
                                                                                                 name_attr = attr.get('name')
-                                                                                                element['childrens'].append(name_attr)
+                                                                                                if name_attr in elements:
+                                                                                                    element['childrens'].append(name_attr)
                                                             else:
                                                                 for att_child in soup.find_all('define'):
                                                                     att_child_name = att_child.get('name')
@@ -223,14 +224,17 @@ def create_json(rng_file):
                                                                             attr = opt.find('attribute')
                                                                             if attr:
                                                                                 name_attr = attr.get('name')
-                                                                                element['childrens'].append(name_attr)
+                                                                                if name_attr in elements:
+                                                                                    element['childrens'].append(name_attr)
                                                         elif defs_name2.startswith("tei_macro"):
                                                             pass
                                                             ''' récupération des balises pour les modèles utilisés pour définir d'autres modèles et ajout à la liste des enfants '''
                                                         else:
-                                                            element['childrens'].append(defs_name2[4:])
+                                                            if defs_name2 in elements:
+                                                                element['childrens'].append(defs_name2[4:])
                                             else:
-                                                element['childrens'].append(def_ref_name[4:])
+                                                if def_ref_name in elements:
+                                                    element['childrens'].append(def_ref_name[4:])
 
 
             ''' enfants contenus dans les balises "oneOrMore" selon le même principe'''
@@ -273,7 +277,8 @@ def create_json(rng_file):
                                                                                             attr = opt.find('attribute')
                                                                                             if attr:
                                                                                                 name_attr = attr.get('name')
-                                                                                                element['childrens'].append(name_attr)
+                                                                                                if name_attr in elements:
+                                                                                                    element['childrens'].append(name_attr)
                                                             else:
                                                                 for att_child in soup.find_all('define'):
                                                                     att_child_name = att_child.get('name')
@@ -283,14 +288,17 @@ def create_json(rng_file):
                                                                             attr = opt.find('attribute')
                                                                             if attr:
                                                                                 name_attr = attr.get('name')
-                                                                                element['childrens'].append(name_attr)
+                                                                                if name_attr in elements:
+                                                                                    element['childrens'].append(name_attr)
                                                         elif defs_name2.startswith("tei_macro"):
                                                             pass
                                                             ''' récupération des balises pour les modèles utilisés pour définir d'autres modèles et ajout à la liste des enfants '''
                                                         else:
-                                                            element['childrens'].append(defs_name2[4:])
+                                                            if defs_name2 in elements:
+                                                                element['childrens'].append(defs_name2[4:])
                                             else:
-                                                element['childrens'].append(def_ref_name[4:])
+                                                if def_ref_name in elements:
+                                                    element['childrens'].append(def_ref_name[4:])
             for text in link.find_all('text'):
                 if text:
                     element['childrens'].append("PCDATA")
@@ -315,9 +323,9 @@ if __name__ == '__main__':
     """
         Etape 1 
     """
-    file_tag("myTEI-3.rng")
+    # file_tag("myTEI-3.rng")
     """
         Etape 2 
     """
-    # create_json("myTEI-3.rng")
+    create_json("myTEI-3.rng")
     # create_json(sys.argv[1])
