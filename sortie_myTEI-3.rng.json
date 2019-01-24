@@ -70,9 +70,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -191,9 +189,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -285,9 +281,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -379,9 +373,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -480,9 +472,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -602,9 +592,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -730,9 +718,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -845,9 +831,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -970,9 +954,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -1007,12 +989,12 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -1085,9 +1067,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -1179,9 +1159,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -1273,9 +1251,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -1388,9 +1364,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -1442,9 +1416,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "target",
@@ -1544,9 +1516,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -1577,9 +1547,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "target",
@@ -1714,9 +1682,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -1808,9 +1774,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -1937,9 +1901,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -2031,9 +1993,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -2160,9 +2120,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -2254,9 +2212,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -2486,9 +2442,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -2742,9 +2696,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -2980,9 +2932,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -3196,9 +3146,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -3406,9 +3354,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -3542,9 +3488,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -3636,9 +3580,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -3659,12 +3601,12 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -3737,9 +3679,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -3831,9 +3771,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -3925,9 +3863,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -4021,9 +3957,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -4117,9 +4051,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -4265,9 +4197,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -4407,9 +4337,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -4558,9 +4486,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -4707,9 +4633,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -4909,13 +4833,13 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
                 "PCDATA",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -4988,9 +4912,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -5190,13 +5112,13 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
                 "PCDATA",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -5269,9 +5191,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -5370,9 +5290,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -5485,9 +5403,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -5511,9 +5427,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "target",
@@ -5641,9 +5555,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -5667,9 +5579,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "target",
@@ -5797,9 +5707,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -5840,12 +5748,12 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -5918,9 +5826,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -6019,9 +5925,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -6152,9 +6056,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -6214,13 +6116,13 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
                 "PCDATA",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -6293,9 +6195,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -6387,9 +6287,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -6481,9 +6379,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -6525,9 +6421,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "target",
@@ -6655,9 +6549,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -6777,9 +6669,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -6899,9 +6789,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -7028,9 +6916,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -7187,9 +7073,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -7323,9 +7207,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -7459,9 +7341,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -7595,9 +7475,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -7731,9 +7609,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -7867,9 +7743,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -7961,9 +7835,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -8055,9 +7927,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -8078,13 +7948,13 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
                 "PCDATA",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -8157,9 +8027,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -8279,9 +8147,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -8401,9 +8267,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -8509,9 +8373,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -8666,9 +8528,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -8843,9 +8703,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -8951,9 +8809,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -8974,12 +8830,12 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -9052,9 +8908,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -9160,9 +9014,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -9284,9 +9136,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -9310,9 +9160,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "target",
@@ -9435,9 +9283,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -9557,9 +9403,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -9618,13 +9462,13 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
                 "PCDATA",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -9697,9 +9541,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -9829,9 +9671,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -9954,9 +9794,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -10069,9 +9907,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -10105,13 +9941,13 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
                 "PCDATA",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -10184,9 +10020,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -10264,12 +10098,12 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -10342,9 +10176,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -10379,12 +10211,12 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -10457,9 +10289,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -10565,9 +10395,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -10694,9 +10522,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -10809,9 +10635,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -10835,18 +10659,14 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(main language) supplies a code which identifies the chief language used in the bibliographic work.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "otherLangs",
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(other languages) one or more codes identifying any other languages used in the bibliographic work.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 }
             ],
             "childrens": []
@@ -10921,9 +10741,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -11015,9 +10833,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -11109,9 +10925,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -11203,9 +11017,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -11311,9 +11123,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -11419,9 +11229,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -11527,9 +11335,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -11621,9 +11427,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -11715,9 +11519,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -11809,9 +11611,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -11832,12 +11632,12 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -11910,9 +11710,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -12018,9 +11816,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -12126,9 +11922,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -12293,9 +12087,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -12408,9 +12200,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -12434,9 +12224,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "target",
@@ -12578,9 +12366,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -12672,9 +12458,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -12766,9 +12550,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -12870,9 +12652,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -12988,9 +12768,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -13082,9 +12860,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -13197,9 +12973,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -13301,9 +13075,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -13405,9 +13177,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -13509,9 +13279,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -13635,9 +13403,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -13749,9 +13515,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -13864,9 +13628,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -13980,9 +13742,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -14084,9 +13844,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -14188,9 +13946,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -14302,9 +14058,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -14417,9 +14171,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -14518,9 +14270,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -14633,9 +14383,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -14734,9 +14482,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -14861,9 +14607,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -14984,9 +14728,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -15088,9 +14830,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -15182,9 +14922,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -15283,9 +15021,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -15377,9 +15113,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -15499,9 +15233,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -15593,9 +15325,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -15687,9 +15417,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -15781,9 +15509,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -15804,13 +15530,13 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
                 "PCDATA",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -15883,9 +15609,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -15999,9 +15723,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -16093,9 +15815,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -16264,9 +15984,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -16358,9 +16076,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -16452,9 +16168,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -16524,13 +16238,13 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
                 "PCDATA",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -16603,9 +16317,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -16707,9 +16419,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -16733,9 +16443,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(identifier) Supplies a language code constructed as defined in BCP 47 which is used to identify the language documented by this element, and which is referenced by the global xml:lang attribute.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "usage",
@@ -16817,9 +16525,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -16921,9 +16627,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -17022,9 +16726,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -17123,9 +16825,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -17149,9 +16849,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "target",
@@ -17251,9 +16949,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -17345,9 +17041,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -17371,9 +17065,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "target",
@@ -17490,9 +17182,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -17598,9 +17288,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -17641,12 +17329,12 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -17719,9 +17407,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -17742,12 +17428,12 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -17820,9 +17506,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -17940,9 +17624,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -18104,9 +17786,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -18219,9 +17899,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -18341,9 +18019,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -18445,9 +18121,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -18539,9 +18213,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -18596,12 +18268,12 @@
                 }
             ],
             "childrens": [
-                "extent",
-                "calendar",
-                "unit",
-                "rendition",
+                "resp",
                 "ref",
-                "resp"
+                "extent",
+                "rendition",
+                "calendar",
+                "unit"
             ]
         },
         {
@@ -18674,9 +18346,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -18778,9 +18448,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -18882,9 +18550,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -18990,9 +18656,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -19138,9 +18802,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -19274,9 +18936,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -19420,9 +19080,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -19566,9 +19224,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -19695,9 +19351,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -19841,9 +19495,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
@@ -19984,9 +19636,7 @@
                     "type": "enumerated",
                     "required": false,
                     "documentation": "(language) indicates the language of the element content using a tag generated according to BCP 47.",
-                    "values": [
-                        null
-                    ]
+                    "values": []
                 },
                 {
                     "key": "xml:base",
