@@ -101,8 +101,11 @@ def create_json(rng_file):
                                                                                             type2 = 'enumerated'
                                                                                             for value in choice.find_all(
                                                                                                     'value'):
-                                                                                                liste_values.append(
-                                                                                                    value.string)
+                                                                                                if value.string == None:
+                                                                                                    pass
+                                                                                                else:
+                                                                                                    liste_values.append(
+                                                                                                        value.string)
                                                                                         else:
                                                                                             type2 = 'string'
                                                                                         attribute3['key'] = name_attr
@@ -131,7 +134,10 @@ def create_json(rng_file):
                                                                         if choice:
                                                                             type2 = 'enumerated'
                                                                             for value in choice.find_all('value'):
-                                                                                liste_values.append(value.string)
+                                                                                if value.string == None:
+                                                                                    pass
+                                                                                else:
+                                                                                    liste_values.append(value.string)
                                                                         else:
                                                                             type2 = 'string'
                                                                         attribute2['key'] = name_attr
@@ -152,7 +158,10 @@ def create_json(rng_file):
                     if choice:
                         type = 'enumerated'
                         for value in choice.find_all('value'):
-                            liste_values.append(value.string)
+                            if value.string == None:
+                                pass
+                            else:
+                                liste_values.append(value.string)
                     else:
                         type = 'string'
                     attribute['key'] = name_att
