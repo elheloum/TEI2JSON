@@ -32,7 +32,7 @@ def create_json(rng_file):
             if documentation:
                 # ajouter la documentation à l'élement
                 element['documentation'] = documentation.string
-            element['attributs'] = []
+            element['attributes'] = []
             # récupération des attributs externes
             for att in link.find_all('ref'):
                 if att:
@@ -66,13 +66,13 @@ def create_json(rng_file):
                                                                                         choice = attr.find('choice')
                                                                                         liste_values = []
                                                                                         if choice:
-                                                                                            type2 = 'Enumerated'
+                                                                                            type2 = 'enumerated'
                                                                                             for value in choice.find_all(
                                                                                                     'value'):
                                                                                                 liste_values.append(
                                                                                                     value.string)
                                                                                         else:
-                                                                                            type2 = 'String'
+                                                                                            type2 = 'string'
                                                                                         attribute3['key'] = name_attr
                                                                                         attribute3['type'] = type2
                                                                                         attribute3['required'] = False
@@ -80,8 +80,8 @@ def create_json(rng_file):
                                                                                             'a:documentation')
                                                                                         if documentation:
                                                                                             attribute3['documentation'] = documentation.string
-                                                                                        attribute3['value'] = liste_values
-                                                                                    element['attributs'].append(attribute3)
+                                                                                        attribute3['values'] = liste_values
+                                                                                    element['attributes'].append(attribute3)
                                                 # obtenir les noms des attribute que contiennet les grands "attributes'
                                                 else:
                                                     attribute2 = OrderedDict()
@@ -97,19 +97,19 @@ def create_json(rng_file):
                                                                         choice = attr.find('choice')
                                                                         liste_values = []
                                                                         if choice:
-                                                                            type2 = 'Enumerated'
+                                                                            type2 = 'enumerated'
                                                                             for value in choice.find_all('value'):
                                                                                 liste_values.append(value.string)
                                                                         else:
-                                                                            type2 = 'String'
+                                                                            type2 = 'string'
                                                                         attribute2['key'] = name_attr
                                                                         attribute2['type'] = type2
                                                                         attribute2['required'] = False
                                                                         documentation = attr.find('a:documentation')
                                                                         if documentation:
                                                                             attribute2['documentation'] = documentation.string
-                                                                        attribute2['value'] = liste_values
-                                                                    element['attributs'].append(attribute2)
+                                                                        attribute2['values'] = liste_values
+                                                                    element['attributes'].append(attribute2)
             # récupération des attributs qui se trouvent dans l'élement
             for attribut in link.find_all('attribute'):
                 attribute = OrderedDict()
@@ -118,20 +118,20 @@ def create_json(rng_file):
                     choice = attribut.find('choice')
                     liste_values = []
                     if choice:
-                        type = 'Enumerated'
+                        type = 'enumerated'
                         for value in choice.find_all('value'):
                             liste_values.append(value.string)
                     else:
-                        type = 'String'
+                        type = 'string'
                     attribute['key'] = name_att
                     attribute['type'] = type
                     attribute['required'] = False
                     documentation = attribut.find('a:documentation')
                     if documentation:
                         attribute['documentation'] = documentation.string
-                    attribute['value'] = liste_values
+                    attribute['values'] = liste_values
                 # ajout de l'ensemble de l'élément attribute à l'élément attributs du json
-                element['attributs'].append(attribute)
+                element['attributes'].append(attribute)
             # création de l'élement childrens dans le json
 
             '''récupération des "enfants" '''
