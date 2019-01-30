@@ -178,7 +178,6 @@ def create_json(rng_file):
             '''récupération des "enfants" '''
             # création de l'élement childrens dans le json
             element['childrens'] = []
-            ''' enfants contenus dans les balises "zeroOrMore" '''
             url = 'http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-' + name + '.html'
 
             r = requests.get(url)
