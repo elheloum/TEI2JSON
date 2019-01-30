@@ -117,7 +117,71 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "foreign",
@@ -209,7 +273,61 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "emph",
@@ -301,7 +419,71 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "hi",
@@ -400,7 +582,71 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "distinct",
@@ -520,7 +766,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "said",
@@ -646,7 +946,75 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "p",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "annotationBlock",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "u",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "sp",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "quote",
@@ -759,7 +1127,75 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "p",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "annotationBlock",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "u",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "sp",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "q",
@@ -882,7 +1318,75 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "p",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "annotationBlock",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "u",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "sp",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "cit",
@@ -989,12 +1493,30 @@
                 }
             ],
             "childrens": [
-                "resp",
+                "incident",
+                "shift",
+                "gap",
+                "kinesic",
                 "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "lb",
+                "listBibl",
+                "writing",
+                "biblStruct",
+                "cb",
+                "index",
+                "cit",
+                "q",
+                "biblFull",
+                "note",
+                "bibl",
+                "gb",
+                "milestone",
+                "pause",
+                "vocal",
+                "quote",
+                "said",
+                "ptr",
+                "pb"
             ]
         },
         {
@@ -1087,7 +1609,61 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "soCalled",
@@ -1179,7 +1755,61 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "desc",
@@ -1292,7 +1922,45 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "unit",
+                "emph",
+                "ref",
+                "measureGrp",
+                "listBibl",
+                "gloss",
+                "abbr",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "rs",
+                "cit",
+                "idno",
+                "q",
+                "biblFull",
+                "bibl",
+                "name",
+                "title",
+                "label",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "foreign",
+                "time",
+                "quote",
+                "said",
+                "ptr",
+                "stage",
+                "term",
+                "choice"
+            ]
         },
         {
             "tag": "gloss",
@@ -1444,7 +2112,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "term",
@@ -1610,7 +2332,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "sic",
@@ -1702,7 +2478,71 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "corr",
@@ -1829,7 +2669,71 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "choice",
@@ -1921,7 +2825,16 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "expan",
+                "abbr",
+                "reg",
+                "corr",
+                "sic",
+                "unclear",
+                "orig",
+                "choice"
+            ]
         },
         {
             "tag": "reg",
@@ -2048,7 +2961,71 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "orig",
@@ -2140,7 +3117,71 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "gap",
@@ -2370,7 +3411,9 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "desc"
+            ]
         },
         {
             "tag": "add",
@@ -2624,7 +3667,71 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "del",
@@ -2860,7 +3967,71 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "unclear",
@@ -3074,7 +4245,71 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "name",
@@ -3282,7 +4517,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "rs",
@@ -3416,7 +4705,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "email",
@@ -3508,7 +4851,61 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "address",
@@ -3601,12 +4998,27 @@
                 }
             ],
             "childrens": [
-                "resp",
-                "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "idno",
+                "pause",
+                "vocal",
+                "writing",
+                "incident",
+                "shift",
+                "postCode",
+                "note",
+                "gap",
+                "addrLine",
+                "pb",
+                "kinesic",
+                "cb",
+                "street",
+                "rs",
+                "name",
+                "gb",
+                "postBox",
+                "milestone",
+                "lb",
+                "index"
             ]
         },
         {
@@ -3699,7 +5111,61 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "street",
@@ -3791,7 +5257,61 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "postCode",
@@ -3883,9 +5403,7 @@
                     ]
                 }
             ],
-            "childrens": [
-                "PCDATA"
-            ]
+            "childrens": []
         },
         {
             "tag": "postBox",
@@ -3977,9 +5495,7 @@
                     ]
                 }
             ],
-            "childrens": [
-                "PCDATA"
-            ]
+            "childrens": []
         },
         {
             "tag": "num",
@@ -4125,7 +5641,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "measure",
@@ -4265,7 +5835,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "measureGrp",
@@ -4413,7 +6037,10 @@
                 }
             ],
             "childrens": [
-                "PCDATA"
+                "num",
+                "unit",
+                "measure",
+                "measureGrp"
             ]
         },
         {
@@ -4561,7 +6188,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "date",
@@ -4833,13 +6514,55 @@
                 }
             ],
             "childrens": [
-                "PCDATA",
-                "resp",
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
                 "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "idno",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
             ]
         },
         {
@@ -5112,13 +6835,55 @@
                 }
             ],
             "childrens": [
-                "PCDATA",
-                "resp",
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
                 "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "idno",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
             ]
         },
         {
@@ -5218,7 +6983,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "expan",
@@ -5331,7 +7150,61 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "ptr",
@@ -5635,7 +7508,71 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "list",
@@ -5748,12 +7685,26 @@
                 }
             ],
             "childrens": [
-                "resp",
-                "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "pause",
+                "vocal",
+                "writing",
+                "meeting",
+                "incident",
+                "shift",
+                "gb",
+                "note",
+                "gap",
+                "pb",
+                "headItem",
+                "kinesic",
+                "cb",
+                "head",
+                "item",
+                "headLabel",
+                "label",
+                "milestone",
+                "lb",
+                "index"
             ]
         },
         {
@@ -5853,7 +7804,75 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "p",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "annotationBlock",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "u",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "sp",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "label",
@@ -5984,7 +8003,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "head",
@@ -6116,13 +8189,69 @@
                 }
             ],
             "childrens": [
-                "PCDATA",
-                "resp",
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
                 "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
             ]
         },
         {
@@ -6215,7 +8344,61 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "headItem",
@@ -6307,7 +8490,61 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "note",
@@ -6477,7 +8714,75 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "p",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "annotationBlock",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "u",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "sp",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "index",
@@ -6583,7 +8888,10 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "index",
+                "term"
+            ]
         },
         {
             "tag": "media",
@@ -6717,7 +9025,9 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "desc"
+            ]
         },
         {
             "tag": "graphic",
@@ -6844,7 +9154,9 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "desc"
+            ]
         },
         {
             "tag": "binaryObject",
@@ -6999,9 +9311,7 @@
                     "values": []
                 }
             ],
-            "childrens": [
-                "PCDATA"
-            ]
+            "childrens": []
         },
         {
             "tag": "milestone",
@@ -7763,7 +10073,18 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "idno",
+                "author",
+                "availability",
+                "ptr",
+                "date",
+                "ref",
+                "textLang",
+                "respStmt",
+                "editor",
+                "title"
+            ]
         },
         {
             "tag": "monogr",
@@ -7855,7 +10176,26 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "edition",
+                "idno",
+                "meeting",
+                "sponsor",
+                "authority",
+                "funder",
+                "author",
+                "availability",
+                "biblScope",
+                "note",
+                "imprint",
+                "ptr",
+                "ref",
+                "extent",
+                "textLang",
+                "respStmt",
+                "editor",
+                "title"
+            ]
         },
         {
             "tag": "series",
@@ -7948,13 +10288,29 @@
                 }
             ],
             "childrens": [
-                "PCDATA",
-                "resp",
+                "incident",
+                "shift",
+                "gap",
+                "kinesic",
                 "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "lb",
+                "writing",
+                "availability",
+                "cb",
+                "editor",
+                "index",
+                "idno",
+                "biblScope",
+                "note",
+                "textLang",
+                "gb",
+                "respStmt",
+                "title",
+                "milestone",
+                "pause",
+                "vocal",
+                "ptr",
+                "pb"
             ]
         },
         {
@@ -8075,7 +10431,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "editor",
@@ -8195,7 +10605,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "respStmt",
@@ -8301,7 +10765,11 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "resp",
+                "note",
+                "name"
+            ]
         },
         {
             "tag": "resp",
@@ -8456,7 +10924,47 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "unit",
+                "incident",
+                "shift",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "measureGrp",
+                "lb",
+                "writing",
+                "gloss",
+                "abbr",
+                "measure",
+                "date",
+                "cb",
+                "rs",
+                "index",
+                "idno",
+                "note",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "time",
+                "ptr",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "title",
@@ -8631,7 +11139,71 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "meeting",
@@ -8737,7 +11309,45 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "unit",
+                "emph",
+                "ref",
+                "measureGrp",
+                "listBibl",
+                "gloss",
+                "abbr",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "rs",
+                "cit",
+                "idno",
+                "q",
+                "biblFull",
+                "bibl",
+                "name",
+                "title",
+                "label",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "foreign",
+                "time",
+                "quote",
+                "said",
+                "ptr",
+                "stage",
+                "term",
+                "choice"
+            ]
         },
         {
             "tag": "imprint",
@@ -8830,12 +11440,29 @@
                 }
             ],
             "childrens": [
-                "resp",
-                "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "incident",
+                "shift",
+                "gap",
+                "kinesic",
+                "lb",
+                "writing",
+                "date",
+                "cb",
+                "classCode",
+                "index",
+                "biblScope",
+                "note",
+                "gb",
+                "respStmt",
+                "milestone",
+                "publisher",
+                "pubPlace",
+                "pause",
+                "vocal",
+                "time",
+                "catRef",
+                "pb",
+                "distributor"
             ]
         },
         {
@@ -8942,7 +11569,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "biblScope",
@@ -9064,7 +11745,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "citedRange",
@@ -9211,7 +11946,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "pubPlace",
@@ -9331,7 +12120,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "bibl",
@@ -9462,13 +12305,71 @@
                 }
             ],
             "childrens": [
-                "PCDATA",
-                "resp",
+                "edition",
+                "email",
+                "address",
+                "num",
+                "author",
+                "corr",
+                "hi",
+                "unit",
+                "emph",
+                "gap",
+                "incident",
                 "ref",
+                "kinesic",
                 "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "sponsor",
+                "availability",
+                "relatedItem",
+                "shift",
+                "date",
+                "cb",
+                "orig",
+                "rs",
+                "editor",
+                "index",
+                "principal",
+                "idno",
+                "reg",
+                "biblScope",
+                "note",
+                "series",
+                "bibl",
+                "unclear",
+                "textLang",
+                "name",
+                "gb",
+                "respStmt",
+                "title",
+                "milestone",
+                "publisher",
+                "distinct",
+                "pubPlace",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "citedRange",
+                "pause",
+                "meeting",
+                "foreign",
+                "time",
+                "vocal",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "funder",
+                "pb",
+                "distributor"
             ]
         },
         {
@@ -9599,7 +12500,16 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "citedRange",
+                "analytic",
+                "monogr",
+                "note",
+                "ptr",
+                "relatedItem",
+                "series",
+                "ref"
+            ]
         },
         {
             "tag": "listBibl",
@@ -9722,7 +12632,18 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "biblStruct",
+                "biblFull",
+                "pb",
+                "bibl",
+                "cb",
+                "head",
+                "gb",
+                "milestone",
+                "lb",
+                "listBibl"
+            ]
         },
         {
             "tag": "relatedItem",
@@ -9835,7 +12756,14 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "biblStruct",
+                "ptr",
+                "biblFull",
+                "ref",
+                "bibl",
+                "listBibl"
+            ]
         },
         {
             "tag": "l",
@@ -9941,13 +12869,67 @@
                 }
             ],
             "childrens": [
-                "PCDATA",
-                "resp",
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
                 "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "sic",
+                "term",
+                "choice",
+                "pb"
             ]
         },
         {
@@ -10098,12 +13080,27 @@
                 }
             ],
             "childrens": [
-                "resp",
-                "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "pause",
+                "vocal",
+                "writing",
+                "meeting",
+                "desc",
+                "incident",
+                "shift",
+                "stage",
+                "note",
+                "gap",
+                "lg",
+                "pb",
+                "kinesic",
+                "cb",
+                "l",
+                "head",
+                "gb",
+                "label",
+                "milestone",
+                "lb",
+                "index"
             ]
         },
         {
@@ -10211,12 +13208,30 @@
                 }
             ],
             "childrens": [
-                "resp",
-                "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "incident",
+                "shift",
+                "gap",
+                "kinesic",
+                "p",
+                "lb",
+                "speaker",
+                "writing",
+                "list",
+                "cb",
+                "lg",
+                "index",
+                "cit",
+                "q",
+                "note",
+                "gb",
+                "milestone",
+                "pause",
+                "vocal",
+                "quote",
+                "said",
+                "stage",
+                "l",
+                "pb"
             ]
         },
         {
@@ -10309,7 +13324,61 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "stage",
@@ -10450,7 +13519,75 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "p",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "annotationBlock",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "u",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "sp",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "teiCorpus",
@@ -10563,7 +13700,10 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "teiCorpus",
+                "teiHeader"
+            ]
         },
         {
             "tag": "textLang",
@@ -10669,7 +13809,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "teiHeader",
@@ -10761,7 +13955,13 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "revisionDesc",
+                "xenoData",
+                "encodingDesc",
+                "fileDesc",
+                "profileDesc"
+            ]
         },
         {
             "tag": "fileDesc",
@@ -10853,7 +14053,15 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "seriesStmt",
+                "editionStmt",
+                "notesStmt",
+                "extent",
+                "publicationStmt",
+                "sourceDesc",
+                "titleStmt"
+            ]
         },
         {
             "tag": "titleStmt",
@@ -10945,7 +14153,16 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "meeting",
+                "sponsor",
+                "author",
+                "title",
+                "respStmt",
+                "editor",
+                "funder",
+                "principal"
+            ]
         },
         {
             "tag": "sponsor",
@@ -11051,7 +14268,47 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "unit",
+                "incident",
+                "shift",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "measureGrp",
+                "lb",
+                "writing",
+                "gloss",
+                "abbr",
+                "measure",
+                "date",
+                "cb",
+                "rs",
+                "index",
+                "idno",
+                "note",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "time",
+                "ptr",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "funder",
@@ -11157,7 +14414,47 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "unit",
+                "incident",
+                "shift",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "measureGrp",
+                "lb",
+                "writing",
+                "gloss",
+                "abbr",
+                "measure",
+                "date",
+                "cb",
+                "rs",
+                "index",
+                "idno",
+                "note",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "time",
+                "ptr",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "principal",
@@ -11263,7 +14560,47 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "unit",
+                "incident",
+                "shift",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "measureGrp",
+                "lb",
+                "writing",
+                "gloss",
+                "abbr",
+                "measure",
+                "date",
+                "cb",
+                "rs",
+                "index",
+                "idno",
+                "note",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "time",
+                "ptr",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "editionStmt",
@@ -11355,7 +14692,17 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "edition",
+                "meeting",
+                "sponsor",
+                "author",
+                "p",
+                "respStmt",
+                "editor",
+                "funder",
+                "principal"
+            ]
         },
         {
             "tag": "edition",
@@ -11447,7 +14794,61 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "extent",
@@ -11539,7 +14940,61 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "publicationStmt",
@@ -11632,12 +15087,17 @@
                 }
             ],
             "childrens": [
-                "resp",
+                "idno",
+                "address",
+                "authority",
+                "availability",
+                "ptr",
+                "date",
                 "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "distributor",
+                "p",
+                "publisher",
+                "pubPlace"
             ]
         },
         {
@@ -11744,7 +15204,61 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "authority",
@@ -11850,7 +15364,47 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "unit",
+                "incident",
+                "shift",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "measureGrp",
+                "lb",
+                "writing",
+                "gloss",
+                "abbr",
+                "measure",
+                "date",
+                "cb",
+                "rs",
+                "index",
+                "idno",
+                "note",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "time",
+                "ptr",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "idno",
@@ -12014,7 +15568,7 @@
                 }
             ],
             "childrens": [
-                "PCDATA"
+                "idno"
             ]
         },
         {
@@ -12128,7 +15682,10 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "licence",
+                "p"
+            ]
         },
         {
             "tag": "licence",
@@ -12294,7 +15851,75 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "p",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "annotationBlock",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "u",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "sp",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "seriesStmt",
@@ -12386,7 +16011,14 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "idno",
+                "biblScope",
+                "p",
+                "respStmt",
+                "editor",
+                "title"
+            ]
         },
         {
             "tag": "notesStmt",
@@ -12478,7 +16110,10 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "note",
+                "relatedItem"
+            ]
         },
         {
             "tag": "sourceDesc",
@@ -12580,7 +16215,16 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "biblStruct",
+                "biblFull",
+                "list",
+                "bibl",
+                "recordingStmt",
+                "scriptStmt",
+                "p",
+                "listBibl"
+            ]
         },
         {
             "tag": "biblFull",
@@ -12696,7 +16340,17 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "fileDesc",
+                "profileDesc",
+                "seriesStmt",
+                "editionStmt",
+                "notesStmt",
+                "extent",
+                "publicationStmt",
+                "sourceDesc",
+                "titleStmt"
+            ]
         },
         {
             "tag": "encodingDesc",
@@ -12788,7 +16442,21 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "listPrefixDef",
+                "samplingDecl",
+                "classDecl",
+                "appInfo",
+                "transcriptionDesc",
+                "tagsDecl",
+                "projectDesc",
+                "styleDefDecl",
+                "p",
+                "schemaRef",
+                "editorialDecl",
+                "geoDecl",
+                "refsDecl"
+            ]
         },
         {
             "tag": "schemaRef",
@@ -12901,7 +16569,9 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "desc"
+            ]
         },
         {
             "tag": "projectDesc",
@@ -13003,7 +16673,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p"
+            ]
         },
         {
             "tag": "samplingDecl",
@@ -13105,7 +16777,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p"
+            ]
         },
         {
             "tag": "editorialDecl",
@@ -13207,7 +16881,17 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "interpretation",
+                "quotation",
+                "correction",
+                "hyphenation",
+                "stdVals",
+                "normalization",
+                "p",
+                "punctuation",
+                "segmentation"
+            ]
         },
         {
             "tag": "correction",
@@ -13331,7 +17015,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p"
+            ]
         },
         {
             "tag": "normalization",
@@ -13443,7 +17129,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p"
+            ]
         },
         {
             "tag": "quotation",
@@ -13556,7 +17244,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p"
+            ]
         },
         {
             "tag": "hyphenation",
@@ -13670,7 +17360,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p"
+            ]
         },
         {
             "tag": "segmentation",
@@ -13772,7 +17464,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p"
+            ]
         },
         {
             "tag": "stdVals",
@@ -13874,7 +17568,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p"
+            ]
         },
         {
             "tag": "interpretation",
@@ -13976,7 +17672,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p"
+            ]
         },
         {
             "tag": "punctuation",
@@ -14099,7 +17797,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p"
+            ]
         },
         {
             "tag": "tagsDecl",
@@ -14198,7 +17898,10 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "namespace",
+                "rendition"
+            ]
         },
         {
             "tag": "tagUsage",
@@ -14311,7 +18014,45 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "unit",
+                "emph",
+                "ref",
+                "measureGrp",
+                "listBibl",
+                "gloss",
+                "abbr",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "rs",
+                "cit",
+                "idno",
+                "q",
+                "biblFull",
+                "bibl",
+                "name",
+                "title",
+                "label",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "foreign",
+                "time",
+                "quote",
+                "said",
+                "ptr",
+                "stage",
+                "term",
+                "choice"
+            ]
         },
         {
             "tag": "namespace",
@@ -14410,7 +18151,9 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "tagUsage"
+            ]
         },
         {
             "tag": "rendition",
@@ -14535,7 +18278,45 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "unit",
+                "emph",
+                "ref",
+                "measureGrp",
+                "listBibl",
+                "gloss",
+                "abbr",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "rs",
+                "cit",
+                "idno",
+                "q",
+                "biblFull",
+                "bibl",
+                "name",
+                "title",
+                "label",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "foreign",
+                "time",
+                "quote",
+                "said",
+                "ptr",
+                "stage",
+                "term",
+                "choice"
+            ]
         },
         {
             "tag": "styleDefDecl",
@@ -14656,7 +18437,9 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p"
+            ]
         },
         {
             "tag": "refsDecl",
@@ -14758,7 +18541,11 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "refState",
+                "p",
+                "cRefPattern"
+            ]
         },
         {
             "tag": "cRefPattern",
@@ -14850,7 +18637,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p"
+            ]
         },
         {
             "tag": "prefixDef",
@@ -14949,7 +18738,9 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p"
+            ]
         },
         {
             "tag": "listPrefixDef",
@@ -15041,7 +18832,10 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "listPrefixDef",
+                "prefixDef"
+            ]
         },
         {
             "tag": "refState",
@@ -15253,7 +19047,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "taxonomy"
+            ]
         },
         {
             "tag": "taxonomy",
@@ -15345,7 +19141,16 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "gloss",
+                "taxonomy",
+                "desc",
+                "biblStruct",
+                "biblFull",
+                "bibl",
+                "category",
+                "listBibl"
+            ]
         },
         {
             "tag": "category",
@@ -15437,7 +19242,12 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "gloss",
+                "category",
+                "catDesc",
+                "desc"
+            ]
         },
         {
             "tag": "catDesc",
@@ -15530,13 +19340,31 @@
                 }
             ],
             "childrens": [
-                "PCDATA",
-                "resp",
+                "email",
+                "address",
+                "num",
+                "hi",
+                "unit",
+                "emph",
                 "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "measureGrp",
+                "gloss",
+                "abbr",
+                "measure",
+                "date",
+                "rs",
+                "idno",
+                "name",
+                "title",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "foreign",
+                "time",
+                "ptr",
+                "term",
+                "choice"
             ]
         },
         {
@@ -15651,7 +19479,61 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "note",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "appInfo",
@@ -15743,7 +19625,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "application"
+            ]
         },
         {
             "tag": "application",
@@ -15912,7 +19796,13 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "ref",
+                "label",
+                "ptr",
+                "p",
+                "desc"
+            ]
         },
         {
             "tag": "profileDesc",
@@ -16004,7 +19894,14 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "abstract",
+                "langUsage",
+                "correspDesc",
+                "calendarDesc",
+                "creation",
+                "textClass"
+            ]
         },
         {
             "tag": "abstract",
@@ -16096,7 +19993,10 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "list",
+                "p"
+            ]
         },
         {
             "tag": "creation",
@@ -16238,13 +20138,32 @@
                 }
             ],
             "childrens": [
-                "PCDATA",
-                "resp",
+                "email",
+                "address",
+                "num",
+                "hi",
+                "unit",
+                "emph",
                 "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "measureGrp",
+                "listChange",
+                "gloss",
+                "abbr",
+                "measure",
+                "date",
+                "rs",
+                "idno",
+                "name",
+                "title",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "foreign",
+                "time",
+                "ptr",
+                "term",
+                "choice"
             ]
         },
         {
@@ -16347,7 +20266,10 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "language",
+                "p"
+            ]
         },
         {
             "tag": "language",
@@ -16453,7 +20375,47 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "unit",
+                "incident",
+                "shift",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "measureGrp",
+                "lb",
+                "writing",
+                "gloss",
+                "abbr",
+                "measure",
+                "date",
+                "cb",
+                "rs",
+                "index",
+                "idno",
+                "note",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "time",
+                "ptr",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "textClass",
@@ -16555,7 +20517,11 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "catRef",
+                "classCode",
+                "keywords"
+            ]
         },
         {
             "tag": "keywords",
@@ -16654,7 +20620,10 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "list",
+                "term"
+            ]
         },
         {
             "tag": "classCode",
@@ -16753,7 +20722,47 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "unit",
+                "incident",
+                "shift",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "measureGrp",
+                "lb",
+                "writing",
+                "gloss",
+                "abbr",
+                "measure",
+                "date",
+                "cb",
+                "rs",
+                "index",
+                "idno",
+                "note",
+                "name",
+                "gb",
+                "title",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "time",
+                "ptr",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "catRef",
@@ -16969,7 +20978,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "calendar"
+            ]
         },
         {
             "tag": "calendar",
@@ -17086,7 +21097,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p"
+            ]
         },
         {
             "tag": "correspDesc",
@@ -17216,7 +21229,12 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "correspContext",
+                "note",
+                "p",
+                "correspAction"
+            ]
         },
         {
             "tag": "correspAction",
@@ -17329,12 +21347,15 @@
                 }
             ],
             "childrens": [
-                "resp",
-                "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "idno",
+                "email",
+                "address",
+                "time",
+                "note",
+                "date",
+                "p",
+                "name",
+                "rs"
             ]
         },
         {
@@ -17428,12 +21449,10 @@
                 }
             ],
             "childrens": [
-                "resp",
                 "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "ptr",
+                "note",
+                "p"
             ]
         },
         {
@@ -17550,9 +21569,7 @@
                     "values": []
                 }
             ],
-            "childrens": [
-                "PCDATA"
-            ]
+            "childrens": []
         },
         {
             "tag": "revisionDesc",
@@ -17651,7 +21668,11 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "listChange",
+                "list",
+                "change"
+            ]
         },
         {
             "tag": "change",
@@ -17827,7 +21848,75 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "p",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "annotationBlock",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "u",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "sp",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "listChange",
@@ -17947,7 +22036,10 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "listChange",
+                "change"
+            ]
         },
         {
             "tag": "scriptStmt",
@@ -18049,7 +22141,13 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "bibl",
+                "biblStruct",
+                "biblFull",
+                "listBibl",
+                "p"
+            ]
         },
         {
             "tag": "recordingStmt",
@@ -18141,7 +22239,10 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p",
+                "recording"
+            ]
         },
         {
             "tag": "recording",
@@ -18268,12 +22369,13 @@
                 }
             ],
             "childrens": [
-                "resp",
-                "ref",
-                "extent",
-                "rendition",
-                "calendar",
-                "unit"
+                "broadcast",
+                "media",
+                "time",
+                "date",
+                "p",
+                "respStmt",
+                "equipment"
             ]
         },
         {
@@ -18376,7 +22478,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "p"
+            ]
         },
         {
             "tag": "broadcast",
@@ -18478,7 +22582,14 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "recording",
+                "biblStruct",
+                "biblFull",
+                "bibl",
+                "p",
+                "listBibl"
+            ]
         },
         {
             "tag": "transcriptionDesc",
@@ -18584,7 +22695,13 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "ref",
+                "label",
+                "ptr",
+                "p",
+                "desc"
+            ]
         },
         {
             "tag": "u",
@@ -18730,7 +22847,71 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "pause",
@@ -19008,7 +23189,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "desc"
+            ]
         },
         {
             "tag": "kinesic",
@@ -19152,7 +23335,9 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "desc"
+            ]
         },
         {
             "tag": "incident",
@@ -19279,7 +23464,9 @@
                     "values": []
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "desc"
+            ]
         },
         {
             "tag": "writing",
@@ -19423,7 +23610,71 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "email",
+                "address",
+                "num",
+                "hi",
+                "corr",
+                "unit",
+                "incident",
+                "emph",
+                "gap",
+                "kinesic",
+                "ref",
+                "shift",
+                "measureGrp",
+                "add",
+                "lb",
+                "listBibl",
+                "writing",
+                "del",
+                "abbr",
+                "gloss",
+                "measure",
+                "desc",
+                "biblStruct",
+                "list",
+                "date",
+                "cb",
+                "binaryObject",
+                "orig",
+                "rs",
+                "graphic",
+                "lg",
+                "index",
+                "cit",
+                "idno",
+                "q",
+                "reg",
+                "biblFull",
+                "note",
+                "bibl",
+                "unclear",
+                "name",
+                "gb",
+                "title",
+                "label",
+                "milestone",
+                "distinct",
+                "mentioned",
+                "soCalled",
+                "expan",
+                "pause",
+                "vocal",
+                "foreign",
+                "media",
+                "quote",
+                "said",
+                "time",
+                "ptr",
+                "stage",
+                "l",
+                "sic",
+                "term",
+                "choice",
+                "pb"
+            ]
         },
         {
             "tag": "shift",
@@ -19656,7 +23907,15 @@
                     ]
                 }
             ],
-            "childrens": []
+            "childrens": [
+                "pause",
+                "vocal",
+                "writing",
+                "incident",
+                "shift",
+                "kinesic",
+                "u"
+            ]
         }
     ]
 }
