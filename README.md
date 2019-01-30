@@ -4,15 +4,12 @@ TEI2JSON is a Python script that allows its user to convert a TEI documentation 
 
 ## Installation
 
-To use this script, the user needs to install the library that is used in this script: 
-- Beautiful soup 
+To use this script, the user needs to install requirements.txt :
 
 ```bash
-pip install beautifulsoup4
+pip install -r requirements.txt
 ```
-He also needs to make sure he has the following libraries: 
-- json
-- OrderedDict
+The putpose is to have the same environment as the one where the project was developed 
 
 ## Input
 
