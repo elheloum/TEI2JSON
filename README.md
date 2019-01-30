@@ -9,7 +9,6 @@ To use this script, the user needs to install requirements.txt :
 ```bash
 pip install -r requirements.txt
 ```
-The putpose is to have the same environment as the one where the project was developed 
 
 ## Input
 
