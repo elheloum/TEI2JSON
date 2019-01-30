@@ -63,6 +63,7 @@ def create_json(rng_file):
             if documentation:
                 # ajouter la documentation à l'élement
                 element['documentation'] = documentation.string
+                print("bye")
             element['attributes'] = []
             # récupération des attributs externes
             for att in link.find_all('ref'):
@@ -194,8 +195,8 @@ def create_json(rng_file):
                                         element['childrens'].append(child)
             element['childrens'] = list(set(element['childrens']))
 
-        # ajout de la totalité du contenu de l'élement dans le json
-        content['elements'].append(element)
+            # ajout de la totalité du contenu de l'élement dans le json
+            content['elements'].append(element)
 
     # création du json
     with open("sortie_{0}".format(rng_file)+".json", mode='w', encoding='UTF-8') as output:
