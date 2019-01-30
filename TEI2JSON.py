@@ -14,7 +14,7 @@ import sys
 def file_tag(rng_file):
     """
     Ceci est l'étape 1 du traitement ! à lancer impérativement seule et en premier !!
-    :param rng_file:
+    :param rng_file: exemple myTEI-3.rng
     :return:
     """
     file = open(rng_file, mode='r', encoding='UTF-8')
@@ -34,7 +34,7 @@ def file_tag(rng_file):
 def create_json(rng_file):
     """
     Ceci est l'étape 2 du traitement. A lancer impérativement après l'étape 1 !!
-    :param rng_file:
+    :param rng_file: exemple myTEI-3.rng
     :return:
     """
     # création de  liste qui contiendra tous les tag trouvé dans le fichier .rng
