@@ -63,7 +63,6 @@ def create_json(rng_file):
             if documentation:
                 # ajouter la documentation à l'élement
                 element['documentation'] = documentation.string
-                print("bye")
             element['attributes'] = []
             # récupération des attributs externes
             for att in link.find_all('ref'):
@@ -191,7 +190,6 @@ def create_json(rng_file):
                             for childrenz in td.find_all('span', class_="specChildElements"):
                                 childrenz_split = childrenz.get_text().split(' ')
                                 for child in childrenz_split:
-                                    print(child)
                                     if child in elements:
                                         element['childrens'].append(child)
             element['childrens'] = list(set(element['childrens']))
