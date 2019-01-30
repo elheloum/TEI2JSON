@@ -14,7 +14,7 @@ import sys
 def file_tag(rng_file):
     """
     Ceci est l'étape 1 du traitement ! à lancer impérativement seule et en premier !!
-    :param rng_file: exemple myTEI-3.rng
+    :param rng_file:
     :return:
     """
     file = open(rng_file, mode='r', encoding='UTF-8')
@@ -34,7 +34,7 @@ def file_tag(rng_file):
 def create_json(rng_file):
     """
     Ceci est l'étape 2 du traitement. A lancer impérativement après l'étape 1 !!
-    :param rng_file: exemple myTEI-3.rng
+    :param rng_file:
     :return:
     """
     # création de  liste qui contiendra tous les tag trouvé dans le fichier .rng
@@ -48,9 +48,7 @@ def create_json(rng_file):
     xml = file.read()
     file.close()
     content = {'elements': []}
-    # att = {'attributs':[]}
     soup = BeautifulSoup(xml, 'xml')
-    # print(soup.find_all('element'))
 
     for link in soup.find_all('element'):
         element = OrderedDict()
@@ -60,10 +58,11 @@ def create_json(rng_file):
             # attribuer à l'élement tag du json le nom de l'élement comme valeur
             element['tag'] = name
             # chercher la documentation de l'élement
-            documentation = link.find('a:documentation')
+            documentation = link.find({"a:documentation"})
             if documentation:
                 # ajouter la documentation à l'élement
                 element['documentation'] = documentation.string
+                print("bye")
             element['attributes'] = []
             # récupération des attributs externes
             for att in link.find_all('ref'):
@@ -112,7 +111,7 @@ def create_json(rng_file):
                                                                                         attribute3['type'] = type2
                                                                                         attribute3['required'] = False
                                                                                         documentation = attr.find(
-                                                                                            'a:documentation')
+                                                                                            {"a:documentation"})
                                                                                         if documentation:
                                                                                             attribute3['documentation'] = documentation.string
                                                                                         attribute3['values'] = liste_values
@@ -143,7 +142,7 @@ def create_json(rng_file):
                                                                         attribute2['key'] = name_attr
                                                                         attribute2['type'] = type2
                                                                         attribute2['required'] = False
-                                                                        documentation = attr.find('a:documentation')
+                                                                        documentation = attr.find({"a:documentation"})
                                                                         if documentation:
                                                                             attribute2['documentation'] = documentation.string
                                                                         attribute2['values'] = liste_values
@@ -167,7 +166,7 @@ def create_json(rng_file):
                     attribute['key'] = name_att
                     attribute['type'] = type
                     attribute['required'] = False
-                    documentation = attribut.find('a:documentation')
+                    documentation = attribut.find({"a:documentation"})
                     if documentation:
                         attribute['documentation'] = documentation.string
                     attribute['values'] = liste_values
@@ -180,7 +179,7 @@ def create_json(rng_file):
             element['childrens'] = []
             children0 = link.find_all('zeroOrMore')
             children1 = link.find_all('oneOrMore')
-            # children = []
+
             ''' enfants contenus dans les balises "zeroOrMore" '''
             for child in children0:
                 refs = child.find_all('ref')
@@ -313,16 +312,9 @@ def create_json(rng_file):
                     element['childrens'].append("PCDATA")
             element['childrens'] = list(set(element['childrens']))
 
-            """
-            '''élimination des doublons'''
-            children = list(set(children))
-            children = sorted(children,  key=str.lower)
-            ''' ajout de l'ensemble des balises à element'''
-            element['childrens'].append(children)
-            """
         # ajout de la totalité du contenu de l'élement dans le json
         content['elements'].append(element)
-    # print(json.dumps(content))
+
     # création du json
     with open("sortie_{0}".format(rng_file)+".json", mode='w', encoding='UTF-8') as output:
         output.write(json.dumps(content, indent=4, sort_keys=False))
@@ -336,5 +328,5 @@ if __name__ == '__main__':
     """
         Etape 2 
     """
-    create_json("myTEI-3.rng")
-    # create_json(sys.argv[1])
+    # create_json("myTEI-3.rng")
+    create_json(sys.argv[1])
