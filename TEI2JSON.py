@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 import json
 from collections import OrderedDict
 import sys
+import requests
 
 
 def file_tag(rng_file):
@@ -177,139 +178,23 @@ def create_json(rng_file):
             '''récupération des "enfants" '''
             # création de l'élement childrens dans le json
             element['childrens'] = []
-            children0 = link.find_all('zeroOrMore')
-            children1 = link.find_all('oneOrMore')
-
             ''' enfants contenus dans les balises "zeroOrMore" '''
-            for child in children0:
-                refs = child.find_all('ref')
-                ''' refs contenus dans les balises "zero or more" des attrbuts'''
-                for ref in refs:
-                    child_ref_name = ref.get('name')
-                    ''' traitement des models '''
-                    if child_ref_name.startswith("tei_model"):
-                        ''' récupération des balises contenus dans les modèles '''
-                        for defz in soup.find_all("define"):
-                            defs_name = defz.get('name')
-                            if defs_name:
-                                if defs_name == child_ref_name:
-                                    for def_ref in defz.find_all('ref'):
-                                        def_ref_name = def_ref.get('name')
-                                        if def_ref_name:
-                                            ''' récupération des balises des modèles utilisés pour définir d'autres modèles contenu dans le défine d'autre modèle '''
-                                            if def_ref_name.startswith("tei_model"):
-                                                for defzz in soup.find_all("define"):
-                                                    defs_name2 = defzz.get('name')
-                                                    if defs_name2:
-                                                        if defs_name2.startswith("tei_model"):
-                                                            pass
-                                                        elif defs_name2.startswith("tei_att"):
-                                                            if defs_name2.endswith('attributes'):
-                                                                for att_child in soup.find_all('define'):
-                                                                    att_child_name = att_child.get('name')
-                                                                    if att_child_name == defs_name2:
-                                                                        for deff in att_child.find_all('ref'):
-                                                                            deff_name = deff.get('name')
-                                                                            for define_att_ref_2 in soup.find_all(
-                                                                                    'define'):
-                                                                                if define_att_ref_2:
-                                                                                    define_att_ref_name2 = define_att_ref_2.get(
-                                                                                        'name')
-                                                                                    if define_att_ref_name2 == deff_name:
-                                                                                        opt = define_att_ref_2.find('optional')
-                                                                                        if opt:
-                                                                                            attr = opt.find('attribute')
-                                                                                            if attr:
-                                                                                                name_attr = attr.get('name')
-                                                                                                if name_attr in elements:
-                                                                                                    element['childrens'].append(name_attr)
-                                                            else:
-                                                                for att_child in soup.find_all('define'):
-                                                                    att_child_name = att_child.get('name')
-                                                                    if att_child_name == defs_name2:
-                                                                        opt = att_child.find('optional')
-                                                                        if opt:
-                                                                            attr = opt.find('attribute')
-                                                                            if attr:
-                                                                                name_attr = attr.get('name')
-                                                                                if name_attr in elements:
-                                                                                    element['childrens'].append(name_attr)
-                                                        elif defs_name2.startswith("tei_macro"):
-                                                            pass
-                                                            ''' récupération des balises pour les modèles utilisés pour définir d'autres modèles et ajout à la liste des enfants '''
-                                                        else:
-                                                            if defs_name2 in elements:
-                                                                element['childrens'].append(defs_name2[4:])
-                                            else:
-                                                if def_ref_name in elements:
-                                                    element['childrens'].append(def_ref_name[4:])
+            url = 'http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-' + name + '.html'
 
-
-            ''' enfants contenus dans les balises "oneOrMore" selon le même principe'''
-            for child in children1:
-                refs = child.find_all('ref')
-                for ref in refs:
-                    child_ref_name = ref.get('name')
-                    ''' traitement des models '''
-                    if child_ref_name.startswith("tei_model"):
-                        ''' récupération des balises contenus dans les modèles '''
-                        for defz in soup.find_all("define"):
-                            defs_name = defz.get('name')
-                            if defs_name:
-                                if defs_name == child_ref_name:
-                                    for def_ref in defz.find_all('ref'):
-                                        def_ref_name = def_ref.get('name')
-                                        if def_ref_name:
-                                            ''' récupération des balises des modèles utilisés pour définir d'autres modèles contenu dans le défine d'autre modèle '''
-                                            if def_ref_name.startswith("tei_model"):
-                                                for defzz in soup.find_all("define"):
-                                                    defs_name2 = defzz.get('name')
-                                                    if defs_name2:
-                                                        if defs_name2.startswith("tei_model"):
-                                                            pass
-                                                        elif defs_name2.startswith("tei_att"):
-                                                            if defs_name2.endswith('attributes'):
-                                                                for att_child in soup.find_all('define'):
-                                                                    att_child_name = att_child.get('name')
-                                                                    if att_child_name == defs_name2:
-                                                                        for deff in att_child.find_all('ref'):
-                                                                            deff_name = deff.get('name')
-                                                                            for define_att_ref_2 in soup.find_all(
-                                                                                    'define'):
-                                                                                if define_att_ref_2:
-                                                                                    define_att_ref_name2 = define_att_ref_2.get(
-                                                                                        'name')
-                                                                                    if define_att_ref_name2 == deff_name:
-                                                                                        opt = define_att_ref_2.find('optional')
-                                                                                        if opt:
-                                                                                            attr = opt.find('attribute')
-                                                                                            if attr:
-                                                                                                name_attr = attr.get('name')
-                                                                                                if name_attr in elements:
-                                                                                                    element['childrens'].append(name_attr)
-                                                            else:
-                                                                for att_child in soup.find_all('define'):
-                                                                    att_child_name = att_child.get('name')
-                                                                    if att_child_name == defs_name2:
-                                                                        opt = att_child.find('optional')
-                                                                        if opt:
-                                                                            attr = opt.find('attribute')
-                                                                            if attr:
-                                                                                name_attr = attr.get('name')
-                                                                                if name_attr in elements:
-                                                                                    element['childrens'].append(name_attr)
-                                                        elif defs_name2.startswith("tei_macro"):
-                                                            pass
-                                                            ''' récupération des balises pour les modèles utilisés pour définir d'autres modèles et ajout à la liste des enfants '''
-                                                        else:
-                                                            if defs_name2 in elements:
-                                                                element['childrens'].append(defs_name2[4:])
-                                            else:
-                                                if def_ref_name in elements:
-                                                    element['childrens'].append(def_ref_name[4:])
-            for text in link.find_all('text'):
-                if text:
-                    element['childrens'].append("PCDATA")
+            r = requests.get(url)
+            data = r.text
+            soup2 = BeautifulSoup(data, features='lxml')
+            for tr in soup2.find_all('tr'):
+                label = tr.find("span", class_="label")
+                if label:
+                    if label.get_text() == "Peut contenir":
+                        for td in tr.find('td', class_="wovenodd-col2"):
+                            for childrenz in td.find_all('span', class_="specChildElements"):
+                                childrenz_split = childrenz.get_text().split(' ')
+                                for child in childrenz_split:
+                                    print(child)
+                                    if child in elements:
+                                        element['childrens'].append(child)
             element['childrens'] = list(set(element['childrens']))
 
         # ajout de la totalité du contenu de l'élement dans le json
@@ -328,5 +213,5 @@ if __name__ == '__main__':
     """
         Etape 2 
     """
-    # create_json("myTEI-3.rng")
-    create_json(sys.argv[1])
+    create_json("myTEI-3.rng")
+    #create_json(sys.argv[1])
