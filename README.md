@@ -27,6 +27,15 @@ Therefore, to get the perfect result, it should be launched from one of those ID
 
 The script contains 2 methods. It is fundamental to launch the first method (def file_tag(rng_file)) before the second one. 
 
+To launch with a command line :
+```python
+python TEI2JSON.py <name_of_an_rng_file>
+```
+For example : 
+```python
+python TEI2JSON.py myTEI-3.rng
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
