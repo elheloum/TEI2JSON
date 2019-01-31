@@ -285,7 +285,8 @@ if __name__ == '__main__':
     """
         Etape 1 
     """
-    file_tag("myTEI-3.rng")
+    # file_tag("myTEI-3.rng")
+    file_tag(sys.argv[1])
     """
         Etape 2 
     """

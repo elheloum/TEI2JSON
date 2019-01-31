@@ -1,6 +1,7 @@
 beautifulsoup4==4.7.0
 certifi==2018.11.29
 chardet==3.0.4
+dictlist==0.1
 ftfy==5.5.1
 idna==2.8
 lxml==4.2.6
