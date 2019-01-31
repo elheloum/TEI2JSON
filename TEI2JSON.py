@@ -279,5 +279,5 @@ if __name__ == '__main__':
     """
         Etape 2 
     """
-    create_json("myTEI-3.rng")
-    # create_json(sys.argv[1])
+    # create_json("myTEI-3.rng")
+    create_json(sys.argv[1])
