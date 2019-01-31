@@ -5,6 +5,7 @@
 @author : Myriam EL HELOU and Sami BOUHOUCHE :D
 """
 
+import ftfy
 from bs4 import BeautifulSoup
 import json
 from collections import OrderedDict
@@ -14,7 +15,7 @@ import requests
 
 def file_tag(rng_file):
     """
-    Ceci est l'étape 1 du traitement ! à lancer impérativement seule et en premier !!
+    Ceci est l'étape 1 du traitement ! à lancer impérativement en premier !!
     :param rng_file:
     :return:
     """
@@ -38,7 +39,6 @@ def create_json(rng_file):
     :param rng_file:
     :return:
     """
-    # création de  liste qui contiendra tous les tag trouvé dans le fichier .rng
     file_in = open("element.txt", mode='r', encoding='UTF-8')
     element = file_in.read()
     elements = element.split("\n")
@@ -59,11 +59,24 @@ def create_json(rng_file):
             # attribuer à l'élement tag du json le nom de l'élement comme valeur
             element['tag'] = name
             # chercher la documentation de l'élement
-            documentation = link.find({"a:documentation"})
-            if documentation:
-                # ajouter la documentation à l'élement
-                element['documentation'] = documentation.string
-                print("bye")
+            element['documentation'] = []
+            url2 = 'http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-' + name + '.html'
+            r2 = requests.get(url2)
+            data2 = r2.text
+            soup2 = BeautifulSoup(data2, features='lxml')
+            tbody = soup2.find('table', class_='wovenodd')
+            if tbody:
+                tr = tbody.find('tr')
+                td = tr.find('td').get_text()
+                if td.startswith("<" + name + ">"):
+                    td = td[len("<" + name + ">") + 1:]
+                td = ftfy.fix_text(td)
+                element['documentation'] = td
+            else:
+                documentation = link.find({"a:documentation"})
+                if documentation:
+                    element['documentation'] = documentation.string
+
             element['attributes'] = []
             # récupération des attributs externes
             for att in link.find_all('ref'):
@@ -88,7 +101,8 @@ def create_json(rng_file):
                                                                     attribute3 = OrderedDict()
                                                                     for define_att_ref_2 in soup.find_all('define'):
                                                                         if define_att_ref_2:
-                                                                            define_att_ref_name2 = define_att_ref_2.get('name')
+                                                                            define_att_ref_name2 = define_att_ref_2.get(
+                                                                                'name')
                                                                             if define_att_ref_name2 == deff_name:
                                                                                 opt = define_att_ref_2.find('optional')
                                                                                 if opt:
@@ -113,10 +127,35 @@ def create_json(rng_file):
                                                                                         attribute3['required'] = False
                                                                                         documentation = attr.find(
                                                                                             {"a:documentation"})
-                                                                                        if documentation:
-                                                                                            attribute3['documentation'] = documentation.string
-                                                                                        attribute3['values'] = liste_values
-                                                                                    element['attributes'].append(attribute3)
+
+                                                                                        url3 = 'http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-' + name_attr + '.html'
+                                                                                        r3 = requests.get(url3)
+                                                                                        data3 = r3.text
+                                                                                        soup3 = BeautifulSoup(data3,
+                                                                                                              features='lxml')
+                                                                                        tbody3 = soup3.find('table',
+                                                                                                            class_='wovenodd')
+                                                                                        if tbody3:
+                                                                                            tr3 = tbody3.find('tr')
+                                                                                            td3 = tr3.find(
+                                                                                                'td').get_text()
+                                                                                            if td3.startswith(
+                                                                                                    "<" + name_attr + ">"):
+                                                                                                td3 = td3[len(
+                                                                                                    "<" + name_attr + ">") + 1:]
+                                                                                            td3 = ftfy.fix_text(td3)
+                                                                                            attribute3[
+                                                                                                'documentation'] = td3
+                                                                                        else:
+                                                                                            documentation = attr.find(
+                                                                                                {"a:documentation"})
+                                                                                            if documentation:
+                                                                                                attribute3[
+                                                                                                    'documentation'] = documentation.string
+                                                                                        attribute3[
+                                                                                            'values'] = liste_values
+                                                                                    element['attributes'].append(
+                                                                                        attribute3)
                                                 # obtenir les noms des attribute que contiennet les grands "attributes'
                                                 else:
                                                     attribute2 = OrderedDict()
@@ -143,9 +182,25 @@ def create_json(rng_file):
                                                                         attribute2['key'] = name_attr
                                                                         attribute2['type'] = type2
                                                                         attribute2['required'] = False
-                                                                        documentation = attr.find({"a:documentation"})
-                                                                        if documentation:
-                                                                            attribute2['documentation'] = documentation.string
+                                                                        url4 = 'http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-' + name_attr + '.html'
+                                                                        r4 = requests.get(url4)
+                                                                        data4 = r4.text
+                                                                        soup4 = BeautifulSoup(data4, features='lxml')
+                                                                        tbody4 = soup4.find('table', class_='wovenodd')
+                                                                        if tbody4:
+                                                                            tr4 = tbody4.find('tr')
+                                                                            td4 = tr4.find('td').get_text()
+                                                                            if td4.startswith("<" + name_attr + ">"):
+                                                                                td4 = td4[
+                                                                                      len("<" + name_attr + ">") + 1:]
+                                                                            td4 = ftfy.fix_text(td4)
+                                                                            attribute2['documentation'] = td4
+                                                                        else:
+                                                                            documentation = attr.find(
+                                                                                {"a:documentation"})
+                                                                            if documentation:
+                                                                                attribute2[
+                                                                                    'documentation'] = documentation.string
                                                                         attribute2['values'] = liste_values
                                                                     element['attributes'].append(attribute2)
             # récupération des attributs qui se trouvent dans l'élement
@@ -167,9 +222,22 @@ def create_json(rng_file):
                     attribute['key'] = name_att
                     attribute['type'] = type
                     attribute['required'] = False
-                    documentation = attribut.find({"a:documentation"})
-                    if documentation:
-                        attribute['documentation'] = documentation.string
+                    url5 = 'http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-' + name_att + '.html'
+                    r5 = requests.get(url5)
+                    data5 = r5.text
+                    soup5 = BeautifulSoup(data5, features='lxml')
+                    tbody5 = soup5.find('table', class_='wovenodd')
+                    if tbody5:
+                        tr5 = tbody5.find('tr')
+                        td5 = tr5.find('td').get_text()
+                        if td5.startswith("<" + name_attr + ">"):
+                            td5 = td5[len("<" + name_attr + ">") + 1:]
+                        td5 = ftfy.fix_text(td5)
+                        attribute['documentation'] = td5
+                    else:
+                        documentation = attribut.find({"a:documentation"})
+                        if documentation:
+                            attribute['documentation'] = documentation.string
                     attribute['values'] = liste_values
                 # ajout de l'ensemble de l'élément attribute à l'élément attributs du json
                 element['attributes'].append(attribute)
@@ -199,17 +267,17 @@ def create_json(rng_file):
             content['elements'].append(element)
 
     # création du json
-    with open("sortie_{0}".format(rng_file)+".json", mode='w', encoding='UTF-8') as output:
-        output.write(json.dumps(content, indent=4, sort_keys=False))
+    with open("sortie_{0}".format(rng_file) + ".json", mode='w', encoding='UTF-8') as output:
+        output.write(json.dumps(content, indent=4, sort_keys=False, ensure_ascii=False))
 
 
 if __name__ == '__main__':
     """
         Etape 1 
     """
-    # file_tag("myTEI-3.rng")
+    file_tag("myTEI-3.rng")
     """
         Etape 2 
     """
     create_json("myTEI-3.rng")
-    #create_json(sys.argv[1])
+    # create_json(sys.argv[1])
