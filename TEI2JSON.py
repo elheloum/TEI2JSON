@@ -11,6 +11,7 @@ import json
 from collections import OrderedDict
 import sys
 import requests
+from recup_modules import *
 
 
 def file_tag(rng_file):
@@ -44,6 +45,8 @@ def create_json(rng_file):
     elements = element.split("\n")
     file_in.close()
 
+    modules = test()
+
     # début du traitement du rng
     file = open(rng_file, mode='r', encoding='UTF-8')
     xml = file.read()
@@ -58,6 +61,13 @@ def create_json(rng_file):
         if name:
             # attribuer à l'élement tag du json le nom de l'élement comme valeur
             element['tag'] = name
+
+            # chercher le module auquel appartient l'élément
+            element['module'] = []
+            for k in modules.keys():
+                if name == k:
+                    element['module'] = modules[k]
+
             # chercher la documentation de l'élement
             element['documentation'] = []
             url2 = 'http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-' + name + '.html'
