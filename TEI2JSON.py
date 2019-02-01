@@ -261,5 +261,5 @@ if __name__ == '__main__':
     """
         Lancement de la méthode 
     """
-    create_json("myTEI-3.rng")
-    # create_json(sys.argv[1])
+    # create_json("myTEI-3.rng")
+    create_json(sys.argv[1])
