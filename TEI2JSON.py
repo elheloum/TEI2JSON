@@ -14,9 +14,10 @@ import requests
 from recup_modules import *
 from recup_elements import *
 
+
 def create_json(rng_file):
     """
-    Ceci est l'étape 2 du traitement. A lancer impérativement après l'étape 1 !!
+    Ceci est l'étape de conversion TEI en JSON. A lancer impérativement après l'étape 1 !!
     :param rng_file:
     :return:
     """
@@ -112,8 +113,6 @@ def create_json(rng_file):
                                                                                         attribute3['key'] = name_attr
                                                                                         attribute3['type'] = type2
                                                                                         attribute3['required'] = False
-                                                                                        documentation = attr.find(
-                                                                                            {"a:documentation"})
 
                                                                                         url3 = 'http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-' + name_attr + '.html'
                                                                                         r3 = requests.get(url3)
