@@ -253,13 +253,13 @@ def create_json(rng_file):
             content['elements'].append(element)
 
     # création du json
-    with open("sortie_{0}".format(rng_file) + ".json", mode='w', encoding='UTF-8') as output:
+    with open("output/sortie_{0}".format(rng_file) + ".json", mode='w', encoding='UTF-8') as output:
         output.write(json.dumps(content, indent=4, sort_keys=False, ensure_ascii=False))
 
 
 if __name__ == '__main__':
     """
-        Lancement de la méthode 
+        Lancement de la méthode
     """
     # create_json("myTEI-3.rng")
     create_json(sys.argv[1])
