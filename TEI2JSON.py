@@ -5,25 +5,22 @@
 @author : Myriam EL HELOU and Sami BOUHOUCHE :D
 """
 
-import ftfy
 from bs4 import BeautifulSoup
 import json
 from collections import OrderedDict
 import sys
 import requests
-from recup_modules import *
-from recup_elements import *
+import csv
+from recup_children import *
+from recup_attributes import *
 
 
 def create_json(rng_file):
     """
-    Ceci est l'étape de conversion TEI en JSON. A lancer impérativement après l'étape 1 !!
+    Ceci est l'étape de conversion TEI en JSON.
     :param rng_file:
     :return:
     """
-    elements = file_tag(rng_file)
-
-    modules = test()
 
     # début du traitement du rng
     file = open(rng_file, mode='r', encoding='UTF-8')
@@ -37,35 +34,27 @@ def create_json(rng_file):
         # récupération du nom de l'élément
         name = link.get('name')
         if name:
+            print("-- traitement de l'élément", name, "--")
             # attribuer à l'élement tag du json le nom de l'élement comme valeur
             element['tag'] = name
 
             # chercher le module auquel appartient l'élément
             element['module'] = []
-            for k in modules.keys():
-                if name == k:
-                    element['module'] = modules[k]
+            print("## traitement du module de l'élément", name, "##")
+            with open('file_modules.csv', 'r') as csvfile:
+                file_modules = csv.reader(csvfile, delimiter='\t')
+                for row in file_modules:
+                    if row[0] == name:
+                        element['module'] = row[1]
 
             # chercher la documentation de l'élement
             element['documentation'] = []
-            url2 = 'http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-' + name + '.html'
-            r2 = requests.get(url2)
-            data2 = r2.text
-            soup2 = BeautifulSoup(data2, features='lxml')
-            tbody = soup2.find('table', class_='wovenodd')
-            if tbody:
-                tr = tbody.find('tr')
-                td = tr.find('td').get_text()
-                if td.startswith("<" + name + ">"):
-                    td = td[len("<" + name + ">") + 1:]
-                td = ftfy.fix_text(td)
-                element['documentation'] = td
-            else:
-                documentation = link.find({"a:documentation"})
-                if documentation:
-                    element['documentation'] = documentation.string
+            documentation = link.find({"a:documentation"})
+            if documentation:
+                element['documentation'] = documentation.string
 
             element['attributes'] = []
+            print(" ~~ traitement des attributs de l'élément:", name, "~~")
             # récupération des attributs externes
             for att in link.find_all('ref'):
                 if att:
@@ -86,7 +75,7 @@ def create_json(rng_file):
                                                             if define_atts_name == ref_name:
                                                                 for deff in define_atts.find_all('ref'):
                                                                     deff_name = deff.get('name')
-                                                                    attribute3 = OrderedDict()
+                                                                    attribute = OrderedDict()
                                                                     for define_att_ref_2 in soup.find_all('define'):
                                                                         if define_att_ref_2:
                                                                             define_att_ref_name2 = define_att_ref_2.get(
@@ -94,160 +83,49 @@ def create_json(rng_file):
                                                                             if define_att_ref_name2 == deff_name:
                                                                                 opt = define_att_ref_2.find('optional')
                                                                                 if opt:
-                                                                                    attr = opt.find('attribute')
-                                                                                    if attr:
-                                                                                        name_attr = attr.get('name')
-                                                                                        choice = attr.find('choice')
-                                                                                        liste_values = []
-                                                                                        if choice:
-                                                                                            type2 = 'enumerated'
-                                                                                            for value in choice.find_all(
-                                                                                                    'value'):
-                                                                                                if value.string == None:
-                                                                                                    pass
-                                                                                                else:
-                                                                                                    liste_values.append(
-                                                                                                        value.string)
-                                                                                        else:
-                                                                                            type2 = 'string'
-                                                                                        attribute3['key'] = name_attr
-                                                                                        attribute3['type'] = type2
-                                                                                        attribute3['required'] = False
-
-                                                                                        url3 = 'http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-' + name_attr + '.html'
-                                                                                        r3 = requests.get(url3)
-                                                                                        data3 = r3.text
-                                                                                        soup3 = BeautifulSoup(data3,
-                                                                                                              features='lxml')
-                                                                                        tbody3 = soup3.find('table',
-                                                                                                            class_='wovenodd')
-                                                                                        if tbody3:
-                                                                                            tr3 = tbody3.find('tr')
-                                                                                            td3 = tr3.find(
-                                                                                                'td').get_text()
-                                                                                            if td3.startswith(
-                                                                                                    "<" + name_attr + ">"):
-                                                                                                td3 = td3[len(
-                                                                                                    "<" + name_attr + ">") + 1:]
-                                                                                            td3 = ftfy.fix_text(td3)
-                                                                                            attribute3[
-                                                                                                'documentation'] = td3
-                                                                                        else:
-                                                                                            documentation = attr.find(
-                                                                                                {"a:documentation"})
-                                                                                            if documentation:
-                                                                                                attribute3[
-                                                                                                    'documentation'] = documentation.string
-                                                                                        attribute3[
-                                                                                            'values'] = liste_values
-                                                                                    element['attributes'].append(
-                                                                                        attribute3)
+                                                                                    attribut = opt.find('attribute')
+                                                                                    if attribut:
+                                                                                        attribute_list = get_attributs(
+                                                                                            attribut,
+                                                                                            attribute)
+                                                                                        # ajout de l'ensemble de l'élément attribute à l'élément attributs du json
+                                                                                        element['attributes'].append(
+                                                                                            attribute_list)
                                                 # obtenir les noms des attribute que contiennet les grands "attributes'
                                                 else:
-                                                    attribute2 = OrderedDict()
+                                                    attribute = OrderedDict()
                                                     for define_att_ref in soup.find_all('define'):
                                                         if define_att_ref:
                                                             define_att_ref_name = define_att_ref.get('name')
                                                             if define_att_ref_name == ref_name:
                                                                 opt = define_att_ref.find('optional')
                                                                 if opt:
-                                                                    attr = opt.find('attribute')
-                                                                    if attr:
-                                                                        name_attr = attr.get('name')
-                                                                        choice = attr.find('choice')
-                                                                        liste_values = []
-                                                                        if choice:
-                                                                            type2 = 'enumerated'
-                                                                            for value in choice.find_all('value'):
-                                                                                if value.string == None:
-                                                                                    pass
-                                                                                else:
-                                                                                    liste_values.append(value.string)
-                                                                        else:
-                                                                            type2 = 'string'
-                                                                        attribute2['key'] = name_attr
-                                                                        attribute2['type'] = type2
-                                                                        attribute2['required'] = False
-                                                                        url4 = 'http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-' + name_attr + '.html'
-                                                                        r4 = requests.get(url4)
-                                                                        data4 = r4.text
-                                                                        soup4 = BeautifulSoup(data4, features='lxml')
-                                                                        tbody4 = soup4.find('table', class_='wovenodd')
-                                                                        if tbody4:
-                                                                            tr4 = tbody4.find('tr')
-                                                                            td4 = tr4.find('td').get_text()
-                                                                            if td4.startswith("<" + name_attr + ">"):
-                                                                                td4 = td4[
-                                                                                      len("<" + name_attr + ">") + 1:]
-                                                                            td4 = ftfy.fix_text(td4)
-                                                                            attribute2['documentation'] = td4
-                                                                        else:
-                                                                            documentation = attr.find(
-                                                                                {"a:documentation"})
-                                                                            if documentation:
-                                                                                attribute2[
-                                                                                    'documentation'] = documentation.string
-                                                                        attribute2['values'] = liste_values
-                                                                    element['attributes'].append(attribute2)
+                                                                    attribut = opt.find('attribute')
+                                                                    if attribut:
+                                                                        attribute_list = get_attributs(attribut,
+                                                                                                       attribute)
+                                                                        # ajout de l'ensemble de l'élément attribute à l'élément attributs du json
+                                                                        element['attributes'].append(attribute_list)
             # récupération des attributs qui se trouvent dans l'élement
             for attribut in link.find_all('attribute'):
                 attribute = OrderedDict()
-                name_att = attribut.get('name')
-                if name_att:
-                    choice = attribut.find('choice')
-                    liste_values = []
-                    if choice:
-                        type = 'enumerated'
-                        for value in choice.find_all('value'):
-                            if value.string == None:
-                                pass
-                            else:
-                                liste_values.append(value.string)
-                    else:
-                        type = 'string'
-                    attribute['key'] = name_att
-                    attribute['type'] = type
-                    attribute['required'] = False
-                    url5 = 'http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-' + name_att + '.html'
-                    r5 = requests.get(url5)
-                    data5 = r5.text
-                    soup5 = BeautifulSoup(data5, features='lxml')
-                    tbody5 = soup5.find('table', class_='wovenodd')
-                    if tbody5:
-                        tr5 = tbody5.find('tr')
-                        td5 = tr5.find('td').get_text()
-                        if td5.startswith("<" + name_attr + ">"):
-                            td5 = td5[len("<" + name_attr + ">") + 1:]
-                        td5 = ftfy.fix_text(td5)
-                        attribute['documentation'] = td5
-                    else:
-                        documentation = attribut.find({"a:documentation"})
-                        if documentation:
-                            attribute['documentation'] = documentation.string
-                    attribute['values'] = liste_values
+                attribute_list = get_attributs(attribut, attribute)
                 # ajout de l'ensemble de l'élément attribute à l'élément attributs du json
-                element['attributes'].append(attribute)
-            # création de l'élement childrens dans le json
+                element['attributes'].append(attribute_list)
 
             '''récupération des "enfants" '''
             # création de l'élement childrens dans le json
             element['childrens'] = []
-            url = 'http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-' + name + '.html'
-
-            r = requests.get(url)
-            data = r.text
-            soup2 = BeautifulSoup(data, features='lxml')
-            for tr in soup2.find_all('tr'):
-                label = tr.find("span", class_="label")
-                if label:
-                    if label.get_text() == "Peut contenir":
-                        for td in tr.find('td', class_="wovenodd-col2"):
-                            for childrenz in td.find_all('span', class_="specChildElements"):
-                                childrenz_split = childrenz.get_text().split(' ')
-                                for child in childrenz_split:
-                                    if child in elements:
-                                        element['childrens'].append(child)
-            element['childrens'] = list(set(element['childrens']))
+            treated_elt = set()
+            liste_children = []
+            resultat = []
+            print("** traitement des enfants de l'élément:", name, "**")
+            for ref in link.find_all('ref'):
+                name_ref = ref.get("name")
+                if not name_ref.startswith("tei_att"):
+                    resultat = handel_element(soup, name_ref, treated_elt, liste_children)
+            if resultat:
+                element['childrens'] = resultat
 
             # ajout de la totalité du contenu de l'élement dans le json
             content['elements'].append(element)
@@ -261,5 +139,4 @@ if __name__ == '__main__':
     """
         Lancement de la méthode 
     """
-    # create_json("myTEI-3.rng")
     create_json(sys.argv[1])
