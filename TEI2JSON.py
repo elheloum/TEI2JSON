@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-@author : Myriam EL HELOU and Sami BOUHOUCHE :D
+@author : Myriam EL HELOU and Sami BOUHOUCHE
 """
 
 from bs4 import BeautifulSoup
@@ -17,9 +17,13 @@ from recup_attributes import *
 
 def create_json(rng_file):
     """
-    Ceci est l'étape de conversion TEI en JSON.
-    :param rng_file:
-    :return:
+    Fonction principale du script,
+    permet de convertir une documentation de la TEI en rng (généré depuis ROMA-TEI) au format JSON
+
+    Entrée:
+        -rng-file(fichier .rng): fichier rng à traiter. celui-ci doit être  généré à partir de TEI-ROMA.
+    Sortie:
+        -rng-file.JSON (fichier .JSON) équivalent JSON de rng-file
     """
 
     # début du traitement du rng
@@ -57,56 +61,47 @@ def create_json(rng_file):
             element['attributes'] = []
             print(" ~~ traitement des attributs de l'élément:", name, "~~")
             # récupération des attributs externes
-            for att in link.find_all('ref'):
-                if att:
-                    attributs = att.get('name')
-                    if str(attributs).startswith("tei_att"):
-                        for define_att in soup.find_all('define'):
-                            if define_att:
-                                att_def = define_att.get('name')
-                                if att_def.startswith('tei_att'):
-                                    if att_def == attributs:
-                                        for ref_att in define_att.find_all('ref'):
-                                            if ref_att:
-                                                ref_name = ref_att.get('name')
-                                                if ref_name.endswith('.attributes'):
-                                                    for define_atts in soup.find_all('define'):
-                                                        if define_atts:
-                                                            define_atts_name = define_atts.get('name')
-                                                            if define_atts_name == ref_name:
-                                                                for deff in define_atts.find_all('ref'):
-                                                                    deff_name = deff.get('name')
-                                                                    attribute = OrderedDict()
-                                                                    for define_att_ref_2 in soup.find_all('define'):
-                                                                        if define_att_ref_2:
-                                                                            define_att_ref_name2 = define_att_ref_2.get(
-                                                                                'name')
-                                                                            if define_att_ref_name2 == deff_name:
-                                                                                opt = define_att_ref_2.find('optional')
-                                                                                if opt:
-                                                                                    attribut = opt.find('attribute')
-                                                                                    if attribut:
-                                                                                        attribute_list = get_attributs(
-                                                                                            attribut,
-                                                                                            attribute)
-                                                                                        # ajout de l'ensemble de l'élément attribute à l'élément attributs du json
-                                                                                        element['attributes'].append(
-                                                                                            attribute_list)
-                                                # obtenir les noms des attribute que contiennet les grands "attributes'
-                                                else:
-                                                    attribute = OrderedDict()
-                                                    for define_att_ref in soup.find_all('define'):
-                                                        if define_att_ref:
-                                                            define_att_ref_name = define_att_ref.get('name')
-                                                            if define_att_ref_name == ref_name:
-                                                                opt = define_att_ref.find('optional')
-                                                                if opt:
-                                                                    attribut = opt.find('attribute')
-                                                                    if attribut:
-                                                                        attribute_list = get_attributs(attribut,
-                                                                                                       attribute)
-                                                                        # ajout de l'ensemble de l'élément attribute à l'élément attributs du json
-                                                                        element['attributes'].append(attribute_list)
+            for references in link.find_all('ref'):
+                if references:
+                    # reference : nom de la référence dans l'élémént
+                    reference = references.get('name')
+                    if str(reference).startswith("tei_att"):
+                        # recherche du define qui décrit cet attribut
+                        for define_att in soup.find_all("define", {"name": reference}):
+                            # recherche des attributs qui se trouvent dans la description de l'attribut père
+                            for ref_att in define_att.find_all('ref'):
+                                # si la référence récupérée correspond à une liste d'attributs
+                                if ref_att and ref_att.get('name').endswith('.attributes'):
+                                    for define_atts in soup.find_all("define", {"name": ref_att.get('name')}):
+                                        for deff in define_atts.find_all('ref'):
+                                            deff_name = deff.get('name')
+                                            attribute = OrderedDict()
+                                            for define_att_ref_2 in soup.find_all("define", {"name": deff_name}):
+                                                attribut = define_att_ref_2.find('attribute')
+                                                if attribut:
+                                                    # gestion du remplissage du dictionnaire contenant les informations
+                                                    # sur l'attribut en question
+                                                    attribute_list = get_attributs(
+                                                        attribut,
+                                                        attribute)
+                                                    # ajout de l'ensemble de l'élément attribute à l'élément attributs du json
+                                                    element['attributes'].append(
+                                                        attribute_list)
+                                else:
+                                    # si la référence récupérée correspond à un seul attribut
+                                    attribute = OrderedDict()
+                                    for define_att_ref in soup.find_all('define'):
+                                        if define_att_ref:
+                                            define_att_ref_name = define_att_ref.get('name')
+                                            if define_att_ref_name == ref_att.get('name'):
+                                                attribut = define_att_ref.find('attribute')
+                                                if attribut:
+                                                    # gestion du remplissage du dictionnaire contenant les informations
+                                                    # sur l'attribut en question
+                                                    attribute_list = get_attributs(attribut,
+                                                                                   attribute)
+                                                    # ajout de l'ensemble de l'élément attribute à l'élément attributs du json
+                                                    element['attributes'].append(attribute_list)
             # récupération des attributs qui se trouvent dans l'élement
             for attribut in link.find_all('attribute'):
                 attribute = OrderedDict()
