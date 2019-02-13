@@ -17,13 +17,18 @@ from recup_attributes import *
 
 def create_json(rng_file):
     """
-    Fonction principale du script,
-    permet de convertir une documentation de la TEI en rng (généré depuis ROMA-TEI) au format JSON
+        **Fonction principale du script**
+        
+        Cette fonction permet de convertir une documentation de la TEI en rng (généré depuis ROMA-TEI) au format JSON
+        :return: le contenu du fichier .rng sous format json
 
-    Entrée:
-        -rng-file(fichier .rng): fichier rng à traiter. celui-ci doit être  généré à partir de TEI-ROMA.
-    Sortie:
-        -rng-file.JSON (fichier .JSON) équivalent JSON de rng-file
+        Entrée::
+            
+            * rng-file(fichier .rng): fichier rng à traiter. celui-ci doit être  généré à partir de TEI-ROMA.
+        
+        Sortie::
+            
+            * rng-file.JSON (fichier .JSON) équivalent JSON de rng-file
     """
 
     # début du traitement du rng
