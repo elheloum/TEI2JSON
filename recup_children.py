@@ -3,10 +3,18 @@
 
 
 def handel_element(soup, name, treated_elt, liste_children):
-
     """
-    :param name: ref name or element name
-    :return: list of childrens
+        **Fonction permettant de récupèrer les enfants de chaque élément.** 
+        
+        Parametres:: 
+
+            * soup:: (beautiful soup object) le rng traité 
+            * name:: (string) nom de l'élement traité
+            * treated_elt::(list) liste des éléments déja traités (permet d'éviter de traiter plusieurs fois le même élément)
+            * liste_children:: (list) liste vide 
+        
+        :return: liste_children: (list) liste contenant les enfants
+    
     """
 
     link = soup.find("define", {"name": name})
