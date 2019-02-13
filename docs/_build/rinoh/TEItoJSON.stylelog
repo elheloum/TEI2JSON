@@ -1,0 +1,1612 @@
+---------------------------------- page 1 ----------------------------------
+#### DownExpandingContainer('title')
+  Paragraph('TEI to JSON Documentation', style='title page title')
+       > (0,0,1,0,2) title page title
+         (0,0,0,0,2) body
+    SingleStyledText('TEI to JSON Documentation')
+  Paragraph('Release 2019', style='title page subtitle')
+       > (0,0,1,0,2) title page subtitle
+         (0,0,0,0,2) body
+    SingleStyledText('Release 2019')
+  Paragraph('EL HELOU \& BOUHOUCHE', style='title page author')
+       > (0,0,1,0,2) title page author
+         (0,0,0,0,2) body
+    SingleStyledText('EL HELOU \& BOUHOUCHE')
+  Paragraph('février 13, 2019', style='title page date')
+       > (0,0,1,0,2) title page date
+         (0,0,0,0,2) body
+    SingleStyledText('février 13, 2019')
+---------------------------------- page i ----------------------------------
+#### FlowablesContainer('chapter title')
+  Paragraph('Table des Matières', style='front matter section title')
+       > (0,0,1,0,2) front matter section title
+         (0,0,0,0,2) body
+    Field('Table des Matières')
+      SingleStyledText('Table des Matières')
+#### ChainedContainer('column1')
+  TableOfContentsSection(style='table of contents')
+       > (0,0,1,0,1) table of contents section
+         (0,0,0,1,1) chapter
+    TableOfContents()   table of contents
+         > (0,0,0,0,2) table of contents
+      TableOfContentsEntry('1	Overview on How to Run this AP...')
+           > (0,0,0,1,2) toc level 1
+          MixedStyledText('1	Overview on How to Run this AP...')
+            ReferenceField('1')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('1')
+            Tab('	')
+            ReferenceField('Overview on How to Run this API')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('Overview on How to Run this API')
+            Tab('	')
+            ReferenceField('3')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('3')
+      TableOfContentsEntry('2	Setup procedure	5')
+           > (0,0,0,1,2) toc level 1
+          MixedStyledText('2	Setup procedure	5')
+            ReferenceField('2')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('2')
+            Tab('	')
+            ReferenceField('Setup procedure')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('Setup procedure')
+            Tab('	')
+            ReferenceField('5')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('5')
+      TableOfContentsEntry('3	Endpoints of the Teacher API	7')
+           > (0,0,0,1,2) toc level 1
+          MixedStyledText('3	Endpoints of the Teacher API	7')
+            ReferenceField('3')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('3')
+            Tab('	')
+            ReferenceField('Endpoints of the Teacher API')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('Endpoints of the Teacher API')
+            Tab('	')
+            ReferenceField('7')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('7')
+      TableOfContentsEntry('4	TeacherAPI main	9')
+           > (0,0,0,1,2) toc level 1
+          MixedStyledText('4	TeacherAPI main	9')
+            ReferenceField('4')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('4')
+            Tab('	')
+            ReferenceField('TeacherAPI main')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('TeacherAPI main')
+            Tab('	')
+            ReferenceField('9')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('9')
+      TableOfContentsEntry('5	TeacherAPI controller	9')
+           > (0,0,0,1,2) toc level 1
+          MixedStyledText('5	TeacherAPI controller	9')
+            ReferenceField('5')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('5')
+            Tab('	')
+            ReferenceField('TeacherAPI controller')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('TeacherAPI controller')
+            Tab('	')
+            ReferenceField('9')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('9')
+      TableOfContentsEntry('6	TeacherAPI models	13')
+           > (0,0,0,1,2) toc level 1
+          MixedStyledText('6	TeacherAPI models	13')
+            ReferenceField('6')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('6')
+            Tab('	')
+            ReferenceField('TeacherAPI models')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('TeacherAPI models')
+            Tab('	')
+            ReferenceField('13')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('13')
+      TableOfContentsEntry('7	TeacherAPI database	13')
+           > (0,0,0,1,2) toc level 1
+          MixedStyledText('7	TeacherAPI database	13')
+            ReferenceField('7')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('7')
+            Tab('	')
+            ReferenceField('TeacherAPI database')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('TeacherAPI database')
+            Tab('	')
+            ReferenceField('13')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('13')
+      TableOfContentsEntry('8	TeacherAPI populate	17')
+           > (0,0,0,1,2) toc level 1
+          MixedStyledText('8	TeacherAPI populate	17')
+            ReferenceField('8')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('8')
+            Tab('	')
+            ReferenceField('TeacherAPI populate')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('TeacherAPI populate')
+            Tab('	')
+            ReferenceField('17')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('17')
+      TableOfContentsEntry('9	Indices and tables	17')
+           > (0,0,0,1,2) toc level 1
+          MixedStyledText('9	Indices and tables	17')
+            ReferenceField('9')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('9')
+            Tab('	')
+            ReferenceField('Indices and tables')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('Indices and tables')
+            Tab('	')
+            ReferenceField('17')
+                 x (0,0,0,1,3) toc linked reference
+                 > (0,0,0,1,1) linked reference
+              SingleStyledText('17')
+#### DownExpandingContainer('footer')
+  Footer('		i')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('		i')
+      Tab('	')
+      Tab('	')
+      Field('i')
+        SingleStyledText('i')
+---------------------------------- page 1 ----------------------------------
+#### ChainedContainer('column1')
+  DocumentTree()
+    Paragraph('This is an API that manages a li...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:10 <paragraph>
+         > (0,0,0,0,2) body
+      MixedStyledText('This is an API that manages a li...')
+        SingleStyledText('This is an API that manages a li...')
+#### DownExpandingContainer('footer')
+  Footer('		1')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('		1')
+      Tab('	')
+      Tab('	')
+      Field('1')
+        SingleStyledText('1')
+---------------------------------- page 2 ----------------------------------
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+#### UpExpandingContainer('header')
+  Header('TEI to JSON Documentation, Relea...')
+       > (0,0,0,0,2) header
+         (0,0,0,0,1) body
+    MixedStyledText('TEI to JSON Documentation, Relea...')
+      Field('TEI to JSON Documentation')
+        SingleStyledText('TEI to JSON Documentation')
+      SingleStyledText(', ')
+      Field('Release 2019')
+        SingleStyledText('Release 2019')
+#### DownExpandingContainer('footer')
+  Footer('2		Chapitre ​.  ​')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('2		Chapitre ​.  ​')
+      Field('2')
+        SingleStyledText('2')
+      Tab('	')
+      Tab('	')
+      StringField('Chapitre')
+      SingleStyledText(' ')
+      Field('​')
+        SingleStyledText('​')
+      SingleStyledText('.  ')
+      Field('​')
+        SingleStyledText('​')
+---------------------------------- page 3 ----------------------------------
+#### FlowablesContainer('chapter title')
+  Paragraph('CHAPITRE 1', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label
+         (0,0,0,0,2) body
+    MixedStyledText('CHAPITRE 1')
+      MixedStyledText('CHAPITRE ')
+        StringField('CHAPITRE')
+        SingleStyledText(' ')
+      Field('1', style='number')
+           > (0,0,2,0,3) body matter chapter number
+        SingleStyledText('1')
+      Paragraph('Overview on How to Run this API', style='body matter chapter title')
+           > (0,0,1,0,2) body matter chapter title
+             (0,0,0,0,2) body
+        Field('Overview on How to Run this API')
+          SingleStyledText('Overview on How to Run this API')
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+    Section(id='overview-on-how-to-run-this-api')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:13 <section>
+         > (0,0,0,1,2) chapter
+      List(style='enumerated')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:14 <enumerated_list>
+           > (0,0,1,0,2) enumerated list
+        ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          ListItemLabel('1.')
+               > (0,0,1,0,6) enumerated list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('1.')
+                SingleStyledText('1')
+                SingleStyledText('.')
+          StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:None <list_item>
+               > (0,0,0,0,3) list item body
+            Paragraph('Either install a Python IDE or c...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:14 <paragraph>
+                 > (0,0,0,0,5) list item paragraph
+                   (0,0,0,0,2) body
+              MixedStyledText('Either install a Python IDE or c...')
+                SingleStyledText('Either install a Python IDE or c...')
+        ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          ListItemLabel('2.')
+               > (0,0,1,0,6) enumerated list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('2.')
+                SingleStyledText('2')
+                SingleStyledText('.')
+          StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:None <list_item>
+               > (0,0,0,0,3) list item body
+            Paragraph('Install packages required')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:15 <paragraph>
+                 > (0,0,0,0,5) list item paragraph
+                   (0,0,0,0,2) body
+              MixedStyledText('Install packages required')
+                SingleStyledText('Install packages required')
+        ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          ListItemLabel('3.')
+               > (0,0,1,0,6) enumerated list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('3.')
+                SingleStyledText('3')
+                SingleStyledText('.')
+          StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:None <list_item>
+               > (0,0,0,0,3) list item body
+            Paragraph('Install MySQL 5.7')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:16 <paragraph>
+                 > (0,0,0,0,5) list item paragraph
+                   (0,0,0,0,2) body
+              MixedStyledText('Install MySQL 5.7')
+                SingleStyledText('Install MySQL 5.7')
+        ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          ListItemLabel('4.')
+               > (0,0,1,0,6) enumerated list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('4.')
+                SingleStyledText('4')
+                SingleStyledText('.')
+          StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:None <list_item>
+               > (0,0,0,0,3) list item body
+            Paragraph('Install Postman extension in Chr...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:17 <paragraph>
+                 > (0,0,0,0,5) list item paragraph
+                   (0,0,0,0,2) body
+              MixedStyledText('Install Postman extension in Chr...')
+                SingleStyledText('Install Postman extension in Chr...')
+#### DownExpandingContainer('footer')
+  Footer('		3')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('		3')
+      Tab('	')
+      Tab('	')
+      Field('3')
+        SingleStyledText('3')
+---------------------------------- page 4 ----------------------------------
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+#### UpExpandingContainer('header')
+  Header('TEI to JSON Documentation, Relea...')
+       > (0,0,0,0,2) header
+         (0,0,0,0,1) body
+    MixedStyledText('TEI to JSON Documentation, Relea...')
+      Field('TEI to JSON Documentation')
+        SingleStyledText('TEI to JSON Documentation')
+      SingleStyledText(', ')
+      Field('Release 2019')
+        SingleStyledText('Release 2019')
+#### DownExpandingContainer('footer')
+  Footer('4		Chapitre 1.  Overview on How ...')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('4		Chapitre 1.  Overview on How ...')
+      Field('4')
+        SingleStyledText('4')
+      Tab('	')
+      Tab('	')
+      StringField('Chapitre')
+      SingleStyledText(' ')
+      Field('1')
+        SingleStyledText('1')
+      SingleStyledText('.  ')
+      Field('Overview on How to Run this API')
+        SingleStyledText('Overview on How to Run this API')
+---------------------------------- page 5 ----------------------------------
+#### FlowablesContainer('chapter title')
+  Paragraph('CHAPITRE 2', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label
+         (0,0,0,0,2) body
+    MixedStyledText('CHAPITRE 2')
+      MixedStyledText('CHAPITRE ')
+        StringField('CHAPITRE')
+        SingleStyledText(' ')
+      Field('2', style='number')
+           > (0,0,2,0,3) body matter chapter number
+        SingleStyledText('2')
+      Paragraph('Setup procedure', style='body matter chapter title')
+           > (0,0,1,0,2) body matter chapter title
+             (0,0,0,0,2) body
+        Field('Setup procedure')
+          SingleStyledText('Setup procedure')
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+    Section(id='setup-procedure')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:20 <section>
+         > (0,0,0,1,2) chapter
+      List(style='enumerated')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:21 <enumerated_list>
+           > (0,0,1,0,2) enumerated list
+        ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          ListItemLabel('1.')
+               > (0,0,1,0,6) enumerated list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('1.')
+                SingleStyledText('1')
+                SingleStyledText('.')
+          StaticGroupedFlowables()   None:None <list_item>
+               > (0,0,0,0,3) list item body
+            DefinitionList()   None:None <definition_list>
+                 > (0,0,0,0,2) definition list
+              LabeledFlowable()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:43 <definition_list_item>
+                   > (0,0,0,0,4) definition list item
+                StaticGroupedFlowables(style='definition term')
+                     > (0,0,1,0,5) definition term
+                  Paragraph('Configure project environment (E...')
+                       > (0,0,1,0,7) definition term paragraph
+                         (0,0,0,0,2) body
+                    MixedStyledText('Configure project environment (E...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:43 <term>
+                      SingleStyledText('Configure project environment (E...')
+                StaticGroupedFlowables(style='definition')   None:None <definition>
+                     > (0,0,1,0,5) definition
+                  List(style='enumerated')   None:None <enumerated_list>
+                       > (0,0,1,0,2) enumerated list
+                    ListItem()
+                         x (0,0,1,0,4) enumerated list item
+                         > fallback to default style
+                      ListItemLabel('1.')
+                           > (0,0,1,0,6) enumerated list item label
+                             (0,0,0,0,2) list item label
+                          MixedStyledText('1.')
+                            SingleStyledText('1')
+                            SingleStyledText('.')
+                      StaticGroupedFlowables()   None:None <list_item>
+                           > (0,0,0,0,3) list item body
+                        DefinitionList()   None:None <definition_list>
+                             > (0,0,0,0,2) definition list
+                          LabeledFlowable()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:30 <definition_list_item>
+                               > (0,0,0,0,4) definition list item
+                            StaticGroupedFlowables(style='definition term')
+                                 > (0,0,1,0,5) definition term
+                              Paragraph('Install Pycharm (www.jetbrains.c...')
+                                   > (0,0,1,0,7) definition term paragraph
+                                     (0,0,0,0,2) body
+                                MixedStyledText('Install Pycharm (www.jetbrains.c...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:30 <term>
+                                  SingleStyledText('Install Pycharm (www.jetbrains.c...')
+                            StaticGroupedFlowables(style='definition')   None:None <definition>
+                                 > (0,0,1,0,5) definition
+                              List(style='bulleted')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:23 <bullet_list>
+                                   > (0,0,1,0,2) bulleted list
+                                ListItem()
+                                     x (0,0,1,0,4) bulleted list item
+                                     > fallback to default style
+                                  ListItemLabel('•')
+                                       > (0,0,1,0,6) bulleted list item label
+                                         (0,0,0,0,2) list item label
+                                      MixedStyledText('•')
+                                        SingleStyledText('')
+                                        SingleStyledText('•')
+                                        SingleStyledText('')
+                                  StaticGroupedFlowables()   None:None <list_item>
+                                       > (0,0,0,0,3) list item body
+                                    Paragraph('Open the Teacher API Directory (...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:23 <paragraph>
+                                         > (0,0,0,0,5) list item paragraph
+                                           (0,0,0,0,2) body
+                                      MixedStyledText('Open the Teacher API Directory (...')
+                                        SingleStyledText('Open the Teacher API Directory (...')
+                                ListItem()
+                                     x (0,0,1,0,4) bulleted list item
+                                     > fallback to default style
+                                  ListItemLabel('•')
+                                       > (0,0,1,0,6) bulleted list item label
+                                         (0,0,0,0,2) list item label
+                                      MixedStyledText('•')
+                                        SingleStyledText('')
+                                        SingleStyledText('•')
+                                        SingleStyledText('')
+                                  StaticGroupedFlowables()   None:None <list_item>
+                                       > (0,0,0,0,3) list item body
+                                    DefinitionList()   None:None <definition_list>
+                                         > (0,0,0,0,2) definition list
+                                      LabeledFlowable()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:26 <definition_list_item>
+                                           > (0,0,0,0,4) definition list item
+                                        StaticGroupedFlowables(style='definition term')
+                                             > (0,0,1,0,5) definition term
+                                          Paragraph('Configure the Base Project Inter...')
+                                               > (0,0,1,0,7) definition term paragraph
+                                                 (0,0,0,0,2) body
+                                            MixedStyledText('Configure the Base Project Inter...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:26 <term>
+                                              SingleStyledText('Configure the Base Project Inter...')
+                                        StaticGroupedFlowables(style='definition')   None:None <definition>
+                                             > (0,0,1,0,5) definition
+                                          List(style='bulleted')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:25 <bullet_list>
+                                               > (0,0,1,0,2) bulleted list
+                                            ListItem()
+                                                 x (0,0,1,0,4) bulleted list item
+                                                 > fallback to default style
+                                              ListItemLabel('•')
+                                                   > (0,0,1,0,6) bulleted list item label
+                                                     (0,0,0,0,2) list item label
+                                                  MixedStyledText('•')
+                                                    SingleStyledText('')
+                                                    SingleStyledText('•')
+                                                    SingleStyledText('')
+                                              StaticGroupedFlowables()   None:None <list_item>
+                                                   > (0,0,0,0,3) list item body
+                                                DefinitionList()   None:None <definition_list>
+                                                     > (0,0,0,0,2) definition list
+                                                  LabeledFlowable()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:25 <definition_list_item>
+                                                       > (0,0,0,0,4) definition list item
+                                                    StaticGroupedFlowables(style='definition term')
+                                                         > (0,0,1,0,5) definition term
+                                                      Paragraph('Base Project Interpreter: pyenv ...')
+                                                           > (0,0,1,0,7) definition term paragraph
+                                                             (0,0,0,0,2) body
+                                                        MixedStyledText('Base Project Interpreter: pyenv ...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:25 <term>
+                                                          SingleStyledText('Base Project Interpreter: pyenv ...')
+                                                    StaticGroupedFlowables(style='definition')   None:None <definition>
+                                                         > (0,0,1,0,5) definition
+                                                      Paragraph('(pyenv was installed before crea...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:26 <paragraph>
+                                                           > (0,0,1,0,7) definition paragraph
+                                                             (0,0,0,0,2) body
+                                                        MixedStyledText('(pyenv was installed before crea...')
+                                                          SingleStyledText('(pyenv was installed before crea...')
+                                          Admonition()   None:None <note>
+                                               > (0,0,0,1,2) note admonition
+                                                 (0,0,0,0,2) admonition
+                                            Paragraph('Note In my case, when I tried to...')
+                                                 > (0,0,0,0,2) body
+                                              MixedStyledText('Note In my case, when I tried to...')
+                                                MixedStyledText('Note', style='inline title')
+                                                     x (0,0,1,1,3) note admonition inline title
+                                                     > (0,0,1,0,3) admonition inline title
+                                                  SingleStyledText('Note')
+                                                SingleStyledText(' ')
+                                                MixedStyledText('In my case, when I tried to use ...')
+                                                  SingleStyledText('In my case, when I tried to use ...')
+                                ListItem()
+                                     x (0,0,1,0,4) bulleted list item
+                                     > fallback to default style
+                                  ListItemLabel('•')
+                                       > (0,0,1,0,6) bulleted list item label
+                                         (0,0,0,0,2) list item label
+                                      MixedStyledText('•')
+                                        SingleStyledText('')
+                                        SingleStyledText('•')
+                                        SingleStyledText('')
+                                  StaticGroupedFlowables()   None:None <list_item>
+                                       > (0,0,0,0,3) list item body
+                                    Paragraph('Manually install packages to pro...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:28 <paragraph>
+                                         > (0,0,0,0,5) list item paragraph
+                                           (0,0,0,0,2) body
+                                      MixedStyledText('Manually install packages to pro...')
+                                        SingleStyledText('Manually install packages to pro...')
+                                    CodeBlock('pip install -r requirements.txt\n')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:30 <literal_block>
+                                         > (1,0,0,0,2) code block
+                                           (0,0,0,0,4) list item paragraph
+                                           (0,0,0,0,1) body
+                                      Token('pip', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token(' ', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                                      Token('install', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token(' ', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                                      Token('-', type=Token.Operator)
+                                           > (0,0,0,1,2) (pygments)Token.Operator
+                                      Token('r', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token(' ', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                                      Token('requirements', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token('.', type=Token.Operator)
+                                           > (0,0,0,1,2) (pygments)Token.Operator
+                                      Token('txt', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token('\n', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                    ListItem()
+                         x (0,0,1,0,4) enumerated list item
+                         > fallback to default style
+                      ListItemLabel('2.')
+                           > (0,0,1,0,6) enumerated list item label
+                             (0,0,0,0,2) list item label
+                          MixedStyledText('2.')
+                            SingleStyledText('2')
+                            SingleStyledText('.')
+                      StaticGroupedFlowables()   None:None <list_item>
+                           > (0,0,0,0,3) list item body
+                        DefinitionList()   None:None <definition_list>
+                             > (0,0,0,0,2) definition list
+                          LabeledFlowable()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:43 <definition_list_item>
+                               > (0,0,0,0,4) definition list item
+                            StaticGroupedFlowables(style='definition term')
+                                 > (0,0,1,0,5) definition term
+                              Paragraph('Create a Python Virtual Environm...')
+                                   > (0,0,1,0,7) definition term paragraph
+                                     (0,0,0,0,2) body
+                                MixedStyledText('Create a Python Virtual Environm...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:43 <term>
+                                  SingleStyledText('Create a Python Virtual Environm...')
+                            StaticGroupedFlowables(style='definition')   None:None <definition>
+                                 > (0,0,1,0,5) definition
+                              List(style='bulleted')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:33 <bullet_list>
+                                   > (0,0,1,0,2) bulleted list
+                                ListItem()
+                                     x (0,0,1,0,4) bulleted list item
+                                     > fallback to default style
+                                  ListItemLabel('•')
+                                       > (0,0,1,0,6) bulleted list item label
+                                         (0,0,0,0,2) list item label
+                                      MixedStyledText('•')
+                                        SingleStyledText('')
+                                        SingleStyledText('•')
+                                        SingleStyledText('')
+                                  StaticGroupedFlowables()   None:None <list_item>
+                                       > (0,0,0,0,3) list item body
+                                    Paragraph('Install virtualenv:')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:33 <paragraph>
+                                         > (0,0,0,0,5) list item paragraph
+                                           (0,0,0,0,2) body
+                                      MixedStyledText('Install virtualenv:')
+                                        SingleStyledText('Install virtualenv:')
+                                    CodeBlock('sudo pip install virtualenv\n')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:35 <literal_block>
+                                         > (1,0,0,0,2) code block
+                                           (0,0,0,0,4) list item paragraph
+                                           (0,0,0,0,1) body
+                                      Token('sudo', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token(' ', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                                      Token('pip', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token(' ', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                                      Token('install', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token(' ', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                                      Token('virtualenv', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token('\n', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                                ListItem()
+                                     x (0,0,1,0,4) bulleted list item
+                                     > fallback to default style
+                                  ListItemLabel('•')
+                                       > (0,0,1,0,6) bulleted list item label
+                                         (0,0,0,0,2) list item label
+                                      MixedStyledText('•')
+                                        SingleStyledText('')
+                                        SingleStyledText('•')
+                                        SingleStyledText('')
+                                  StaticGroupedFlowables()   None:None <list_item>
+                                       > (0,0,0,0,3) list item body
+                                    Paragraph('Create virtialenv:')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:37 <paragraph>
+                                         > (0,0,0,0,5) list item paragraph
+                                           (0,0,0,0,2) body
+                                      MixedStyledText('Create virtialenv:')
+                                        SingleStyledText('Create virtialenv:')
+                                    CodeBlock('virtualenv -p python3 <name of v...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:39 <literal_block>
+                                         > (1,0,0,0,2) code block
+                                           (0,0,0,0,4) list item paragraph
+                                           (0,0,0,0,1) body
+                                      Token('virtualenv', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token(' ', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                                      Token('-', type=Token.Operator)
+                                           > (0,0,0,1,2) (pygments)Token.Operator
+                                      Token('p', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token(' ', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                                      Token('python3', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token(' ', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                                      Token('<', type=Token.Operator)
+                                           > (0,0,0,1,2) (pygments)Token.Operator
+                                      Token('name', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token(' ', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                                      Token('of', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token(' ', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                                      Token('virtualenv', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token('>', type=Token.Operator)
+                                           > (0,0,0,1,2) (pygments)Token.Operator
+                                      Token('\n', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+#### DownExpandingContainer('footer')
+  Footer('		5')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('		5')
+      Tab('	')
+      Tab('	')
+      Field('5')
+        SingleStyledText('5')
+---------------------------------- page 6 ----------------------------------
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+    (continued) Section(id='setup-procedure')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:20 <section>
+         > (0,0,0,1,2) chapter
+      (continued) List(style='enumerated')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:21 <enumerated_list>
+           > (0,0,1,0,2) enumerated list
+        (continued) ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          (continued) StaticGroupedFlowables()   None:None <list_item>
+               > (0,0,0,0,3) list item body
+            (continued) DefinitionList()   None:None <definition_list>
+                 > (0,0,0,0,2) definition list
+              (continued) LabeledFlowable()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:43 <definition_list_item>
+                   > (0,0,0,0,4) definition list item
+                (continued) StaticGroupedFlowables(style='definition')   None:None <definition>
+                     > (0,0,1,0,5) definition
+                  (continued) List(style='enumerated')   None:None <enumerated_list>
+                       > (0,0,1,0,2) enumerated list
+                    (continued) ListItem()
+                         x (0,0,1,0,4) enumerated list item
+                         > fallback to default style
+                      (continued) StaticGroupedFlowables()   None:None <list_item>
+                           > (0,0,0,0,3) list item body
+                        (continued) DefinitionList()   None:None <definition_list>
+                             > (0,0,0,0,2) definition list
+                          (continued) LabeledFlowable()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:43 <definition_list_item>
+                               > (0,0,0,0,4) definition list item
+                            (continued) StaticGroupedFlowables(style='definition')   None:None <definition>
+                                 > (0,0,1,0,5) definition
+                              (continued) List(style='bulleted')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:33 <bullet_list>
+                                   > (0,0,1,0,2) bulleted list
+                                ListItem()
+                                     x (0,0,1,0,4) bulleted list item
+                                     > fallback to default style
+                                  ListItemLabel('•')
+                                       > (0,0,1,0,6) bulleted list item label
+                                         (0,0,0,0,2) list item label
+                                      MixedStyledText('•')
+                                        SingleStyledText('')
+                                        SingleStyledText('•')
+                                        SingleStyledText('')
+                                  StaticGroupedFlowables()   None:None <list_item>
+                                       > (0,0,0,0,3) list item body
+                                    Paragraph('Install requirements:')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:41 <paragraph>
+                                         > (0,0,0,0,5) list item paragraph
+                                           (0,0,0,0,2) body
+                                      MixedStyledText('Install requirements:')
+                                        SingleStyledText('Install requirements:')
+                                    CodeBlock('pip install -r requirements.txt\n')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:43 <literal_block>
+                                         > (1,0,0,0,2) code block
+                                           (0,0,0,0,4) list item paragraph
+                                           (0,0,0,0,1) body
+                                      Token('pip', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token(' ', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                                      Token('install', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token(' ', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                                      Token('-', type=Token.Operator)
+                                           > (0,0,0,1,2) (pygments)Token.Operator
+                                      Token('r', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token(' ', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+                                      Token('requirements', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token('.', type=Token.Operator)
+                                           > (0,0,0,1,2) (pygments)Token.Operator
+                                      Token('txt', type=Token.Name)
+                                           > (0,0,0,1,2) (pygments)Token.Name
+                                      Token('\n', type=Token.Text)
+                                           > (0,0,0,1,2) (pygments)Token.Text
+        ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          ListItemLabel('2.')
+               > (0,0,1,0,6) enumerated list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('2.')
+                SingleStyledText('2')
+                SingleStyledText('.')
+          StaticGroupedFlowables()   None:None <list_item>
+               > (0,0,0,0,3) list item body
+            DefinitionList()   None:None <definition_list>
+                 > (0,0,0,0,2) definition list
+              LabeledFlowable()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:48 <definition_list_item>
+                   > (0,0,0,0,4) definition list item
+                StaticGroupedFlowables(style='definition term')
+                     > (0,0,1,0,5) definition term
+                  Paragraph('Install MySQL')
+                       > (0,0,1,0,7) definition term paragraph
+                         (0,0,0,0,2) body
+                    MixedStyledText('Install MySQL')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:48 <term>
+                      SingleStyledText('Install MySQL')
+                StaticGroupedFlowables(style='definition')   None:None <definition>
+                     > (0,0,1,0,5) definition
+                  List(style='enumerated')   None:None <enumerated_list>
+                       > (0,0,1,0,2) enumerated list
+                    ListItem()
+                         x (0,0,1,0,4) enumerated list item
+                         > fallback to default style
+                      ListItemLabel('1.')
+                           > (0,0,1,0,6) enumerated list item label
+                             (0,0,0,0,2) list item label
+                          MixedStyledText('1.')
+                            SingleStyledText('1')
+                            SingleStyledText('.')
+                      StaticGroupedFlowables()   None:None <list_item>
+                           > (0,0,0,0,3) list item body
+                        Paragraph('Search on the web on how to inst...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:46 <paragraph>
+                             > (0,0,0,0,5) list item paragraph
+                               (0,0,0,0,2) body
+                          MixedStyledText('Search on the web on how to inst...')
+                            SingleStyledText('Search on the web on how to inst...')
+                    ListItem()
+                         x (0,0,1,0,4) enumerated list item
+                         > fallback to default style
+                      ListItemLabel('2.')
+                           > (0,0,1,0,6) enumerated list item label
+                             (0,0,0,0,2) list item label
+                          MixedStyledText('2.')
+                            SingleStyledText('2')
+                            SingleStyledText('.')
+                      StaticGroupedFlowables()   None:None <list_item>
+                           > (0,0,0,0,3) list item body
+                        DefinitionList()   None:None <definition_list>
+                             > (0,0,0,0,2) definition list
+                          LabeledFlowable()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:48 <definition_list_item>
+                               > (0,0,0,0,4) definition list item
+                            StaticGroupedFlowables(style='definition term')
+                                 > (0,0,1,0,5) definition term
+                              Paragraph('Create database through piping')
+                                   > (0,0,1,0,7) definition term paragraph
+                                     (0,0,0,0,2) body
+                                MixedStyledText('Create database through piping')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:48 <term>
+                                  SingleStyledText('Create database through piping')
+                            StaticGroupedFlowables(style='definition')   None:None <definition>
+                                 > (0,0,1,0,5) definition
+                              StaticGroupedFlowables(style='block quote')   None:None <block_quote>
+                                   > (0,0,1,0,1) block quote
+                                Paragraph('mysql -u root < <Path to file>/c...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:48 <paragraph>
+                                     > (0,0,0,0,2) body
+                                  MixedStyledText('mysql -u root < <Path to file>/c...')
+                                    SingleStyledText('mysql -u root < <Path to file>/c...')
+                              List(style='bulleted')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:49 <bullet_list>
+                                   > (0,0,1,0,2) bulleted list
+                                ListItem()
+                                     x (0,0,1,0,4) bulleted list item
+                                     > fallback to default style
+                                  ListItemLabel('•')
+                                       > (0,0,1,0,6) bulleted list item label
+                                         (0,0,0,0,2) list item label
+                                      MixedStyledText('•')
+                                        SingleStyledText('')
+                                        SingleStyledText('•')
+                                        SingleStyledText('')
+                                  StaticGroupedFlowables()   None:None <list_item>
+                                       > (0,0,0,0,3) list item body
+                                    Paragraph('NOTE: depending on your mysql co...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:49 <paragraph>
+                                         > (0,0,0,0,5) list item paragraph
+                                           (0,0,0,0,2) body
+                                      MixedStyledText('NOTE: depending on your mysql co...')
+                                        SingleStyledText('NOTE: depending on your mysql co...')
+        ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          ListItemLabel('3.')
+               > (0,0,1,0,6) enumerated list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('3.')
+                SingleStyledText('3')
+                SingleStyledText('.')
+          StaticGroupedFlowables()   None:None <list_item>
+               > (0,0,0,0,3) list item body
+            DefinitionList()   None:None <definition_list>
+                 > (0,0,0,0,2) definition list
+              LabeledFlowable()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:65 <definition_list_item>
+                   > (0,0,0,0,4) definition list item
+                StaticGroupedFlowables(style='definition term')
+                     > (0,0,1,0,5) definition term
+                  Paragraph('Initialize and Populate Company ...')
+                       > (0,0,1,0,7) definition term paragraph
+                         (0,0,0,0,2) body
+                    MixedStyledText('Initialize and Populate Company ...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:65 <term>
+                      SingleStyledText('Initialize and Populate Company ...')
+                StaticGroupedFlowables(style='definition')   None:None <definition>
+                     > (0,0,1,0,5) definition
+                  List(style='enumerated')   None:None <enumerated_list>
+                       > (0,0,1,0,2) enumerated list
+                    ListItem()
+                         x (0,0,1,0,4) enumerated list item
+                         > fallback to default style
+                      ListItemLabel('1.')
+                           > (0,0,1,0,6) enumerated list item label
+                             (0,0,0,0,2) list item label
+                          MixedStyledText('1.')
+                            SingleStyledText('1')
+                            SingleStyledText('.')
+                      StaticGroupedFlowables()   None:None <list_item>
+                           > (0,0,0,0,3) list item body
+                        DefinitionList()   None:None <definition_list>
+                             > (0,0,0,0,2) definition list
+                          LabeledFlowable()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:52 <definition_list_item>
+                               > (0,0,0,0,4) definition list item
+                            StaticGroupedFlowables(style='definition term')
+                                 > (0,0,1,0,5) definition term
+                              Paragraph('Edit line 14 of teacherAPI/datab...')
+                                   > (0,0,1,0,7) definition term paragraph
+                                     (0,0,0,0,2) body
+                                MixedStyledText('Edit line 14 of teacherAPI/datab...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:52 <term>
+                                  SingleStyledText('Edit line 14 of teacherAPI/datab...')
+                            StaticGroupedFlowables(style='definition')   None:None <definition>
+                                 > (0,0,1,0,5) definition
+                              List(style='bulleted')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:52 <bullet_list>
+                                   > (0,0,1,0,2) bulleted list
+                                ListItem()
+                                     x (0,0,1,0,4) bulleted list item
+                                     > fallback to default style
+                                  ListItemLabel('•')
+                                       > (0,0,1,0,6) bulleted list item label
+                                         (0,0,0,0,2) list item label
+                                      MixedStyledText('•')
+                                        SingleStyledText('')
+                                        SingleStyledText('•')
+                                        SingleStyledText('')
+                                  StaticGroupedFlowables()   None:None <list_item>
+                                       > (0,0,0,0,3) list item body
+                                    Paragraph('In my case, I’m using the root a...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:52 <paragraph>
+                                         > (0,0,0,0,5) list item paragraph
+                                           (0,0,0,0,2) body
+                                      MixedStyledText('In my case, I’m using the root a...')
+                                        SingleStyledText('In my case, I’m using the root a...')
+                              Paragraph('“mysql://root:<password>@localho...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:53 <paragraph>
+                                   > (0,0,1,0,7) definition paragraph
+                                     (0,0,0,0,2) body
+                                MixedStyledText('“mysql://root:<password>@localho...')
+                                  SingleStyledText('“mysql://root:<password>@localho...')
+                    ListItem()
+                         x (0,0,1,0,4) enumerated list item
+                         > fallback to default style
+                      ListItemLabel('2.')
+                           > (0,0,1,0,6) enumerated list item label
+                             (0,0,0,0,2) list item label
+                          MixedStyledText('2.')
+                            SingleStyledText('2')
+                            SingleStyledText('.')
+                      StaticGroupedFlowables()   None:None <list_item>
+                           > (0,0,0,0,3) list item body
+                        DefinitionList()   None:None <definition_list>
+                             > (0,0,0,0,2) definition list
+                          LabeledFlowable()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:57 <definition_list_item>
+                               > (0,0,0,0,4) definition list item
+                            StaticGroupedFlowables(style='definition term')
+                                 > (0,0,1,0,5) definition term
+                              Paragraph('Either run the line below')
+                                   > (0,0,1,0,7) definition term paragraph
+                                     (0,0,0,0,2) body
+                                MixedStyledText('Either run the line below')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:57 <term>
+                                  SingleStyledText('Either run the line below')
+                            StaticGroupedFlowables(style='definition')   None:None <definition>
+                                 > (0,0,1,0,5) definition
+                              Paragraph('$ sh database_populator.sh')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:55 <paragraph>
+                                   > (0,0,1,0,7) definition paragraph
+                                     (0,0,0,0,2) body
+                                MixedStyledText('$ sh database_populator.sh')
+                                  SingleStyledText('$ sh database_populator.sh')
+                              Paragraph('OR')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:57 <paragraph>
+                                   > (0,0,1,0,7) definition paragraph
+                                     (0,0,0,0,2) body
+                                MixedStyledText('OR')
+                                  SingleStyledText('OR')
+                    ListItem()
+                         x (0,0,1,0,4) enumerated list item
+                         > fallback to default style
+                      ListItemLabel('3.')
+                           > (0,0,1,0,6) enumerated list item label
+                             (0,0,0,0,2) list item label
+                          MixedStyledText('3.')
+                            SingleStyledText('3')
+                            SingleStyledText('.')
+                      StaticGroupedFlowables()   None:None <list_item>
+                           > (0,0,0,0,3) list item body
+                        Paragraph('Use the python interactive shell...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:59 <paragraph>
+                             > (0,0,0,0,5) list item paragraph
+                               (0,0,0,0,2) body
+                          MixedStyledText('Use the python interactive shell...')
+                            SingleStyledText('Use the python interactive shell...')
+                        CodeBlock('$ python\n>> from teacherAPI.data...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:61 <literal_block>
+                             > (1,0,0,0,2) code block
+                               (0,0,0,0,4) list item paragraph
+                               (0,0,0,0,1) body
+                          SingleStyledText('$ python\n>> from teacherAPI.data...')
+        ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          ListItemLabel('4.')
+               > (0,0,1,0,6) enumerated list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('4.')
+                SingleStyledText('4')
+                SingleStyledText('.')
+          StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:None <list_item>
+               > (0,0,0,0,3) list item body
+            Paragraph('Run app.py:')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:67 <paragraph>
+                 > (0,0,0,0,5) list item paragraph
+                   (0,0,0,0,2) body
+              MixedStyledText('Run app.py:')
+                SingleStyledText('Run app.py:')
+            CodeBlock('python app.py\n')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:69 <literal_block>
+                 > (1,0,0,0,2) code block
+                   (0,0,0,0,4) list item paragraph
+                   (0,0,0,0,1) body
+              Token('python', type=Token.Name)
+                   > (0,0,0,1,2) (pygments)Token.Name
+              Token(' ', type=Token.Text)
+                   > (0,0,0,1,2) (pygments)Token.Text
+              Token('app', type=Token.Name)
+                   > (0,0,0,1,2) (pygments)Token.Name
+              Token('.', type=Token.Operator)
+                   > (0,0,0,1,2) (pygments)Token.Operator
+              Token('py', type=Token.Name)
+                   > (0,0,0,1,2) (pygments)Token.Name
+              Token('\n', type=Token.Text)
+                   > (0,0,0,1,2) (pygments)Token.Text
+        ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          ListItemLabel('5.')
+               > (0,0,1,0,6) enumerated list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('5.')
+                SingleStyledText('5')
+                SingleStyledText('.')
+          StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:None <list_item>
+               > (0,0,0,0,3) list item body
+            Paragraph('Refer to TeacherAPI controller o...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:71 <paragraph>
+                 > (0,0,0,0,5) list item paragraph
+                   (0,0,0,0,2) body
+              MixedStyledText('Refer to TeacherAPI controller o...')
+                SingleStyledText('Refer to TeacherAPI controller o...')
+#### UpExpandingContainer('header')
+  Header('TEI to JSON Documentation, Relea...')
+       > (0,0,0,0,2) header
+         (0,0,0,0,1) body
+    MixedStyledText('TEI to JSON Documentation, Relea...')
+      Field('TEI to JSON Documentation')
+        SingleStyledText('TEI to JSON Documentation')
+      SingleStyledText(', ')
+      Field('Release 2019')
+        SingleStyledText('Release 2019')
+#### DownExpandingContainer('footer')
+  Footer('6		Chapitre 2.  Setup procedure')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('6		Chapitre 2.  Setup procedure')
+      Field('6')
+        SingleStyledText('6')
+      Tab('	')
+      Tab('	')
+      StringField('Chapitre')
+      SingleStyledText(' ')
+      Field('2')
+        SingleStyledText('2')
+      SingleStyledText('.  ')
+      Field('Setup procedure')
+        SingleStyledText('Setup procedure')
+---------------------------------- page 7 ----------------------------------
+#### FlowablesContainer('chapter title')
+  Paragraph('CHAPITRE 3', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label
+         (0,0,0,0,2) body
+    MixedStyledText('CHAPITRE 3')
+      MixedStyledText('CHAPITRE ')
+        StringField('CHAPITRE')
+        SingleStyledText(' ')
+      Field('3', style='number')
+           > (0,0,2,0,3) body matter chapter number
+        SingleStyledText('3')
+      Paragraph('Endpoints of the Teacher API', style='body matter chapter title')
+           > (0,0,1,0,2) body matter chapter title
+             (0,0,0,0,2) body
+        Field('Endpoints of the Teacher API')
+          SingleStyledText('Endpoints of the Teacher API')
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+    Section(id='endpoints-of-the-teacher-api')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:74 <section>
+         > (0,0,0,1,2) chapter
+      List(style='enumerated')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:75 <enumerated_list>
+           > (0,0,1,0,2) enumerated list
+        ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          ListItemLabel('1.')
+               > (0,0,1,0,6) enumerated list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('1.')
+                SingleStyledText('1')
+                SingleStyledText('.')
+          StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:None <list_item>
+               > (0,0,0,0,3) list item body
+            Paragraph('Insert a new teacher record')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:75 <paragraph>
+                 > (0,0,0,0,5) list item paragraph
+                   (0,0,0,0,2) body
+              MixedStyledText('Insert a new teacher record')
+                SingleStyledText('Insert a new teacher record')
+        ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          ListItemLabel('2.')
+               > (0,0,1,0,6) enumerated list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('2.')
+                SingleStyledText('2')
+                SingleStyledText('.')
+          StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:None <list_item>
+               > (0,0,0,0,3) list item body
+            Paragraph('Update an existing teacher recor...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:76 <paragraph>
+                 > (0,0,0,0,5) list item paragraph
+                   (0,0,0,0,2) body
+              MixedStyledText('Update an existing teacher recor...')
+                SingleStyledText('Update an existing teacher recor...')
+        ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          ListItemLabel('3.')
+               > (0,0,1,0,6) enumerated list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('3.')
+                SingleStyledText('3')
+                SingleStyledText('.')
+          StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:None <list_item>
+               > (0,0,0,0,3) list item body
+            Paragraph('Delete teacher record')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:77 <paragraph>
+                 > (0,0,0,0,5) list item paragraph
+                   (0,0,0,0,2) body
+              MixedStyledText('Delete teacher record')
+                SingleStyledText('Delete teacher record')
+        ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          ListItemLabel('4.')
+               > (0,0,1,0,6) enumerated list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('4.')
+                SingleStyledText('4')
+                SingleStyledText('.')
+          StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:None <list_item>
+               > (0,0,0,0,3) list item body
+            Paragraph('Get teacher record details')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:78 <paragraph>
+                 > (0,0,0,0,5) list item paragraph
+                   (0,0,0,0,2) body
+              MixedStyledText('Get teacher record details')
+                SingleStyledText('Get teacher record details')
+        ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          ListItemLabel('5.')
+               > (0,0,1,0,6) enumerated list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('5.')
+                SingleStyledText('5')
+                SingleStyledText('.')
+          StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:None <list_item>
+               > (0,0,0,0,3) list item body
+            Paragraph('List all teacher records')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:79 <paragraph>
+                 > (0,0,0,0,5) list item paragraph
+                   (0,0,0,0,2) body
+              MixedStyledText('List all teacher records')
+                SingleStyledText('List all teacher records')
+        ListItem()
+             x (0,0,1,0,4) enumerated list item
+             > fallback to default style
+          ListItemLabel('6.')
+               > (0,0,1,0,6) enumerated list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('6.')
+                SingleStyledText('6')
+                SingleStyledText('.')
+          StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:None <list_item>
+               > (0,0,0,0,3) list item body
+            Paragraph('Filter list of teachers using wi...')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:80 <paragraph>
+                 > (0,0,0,0,5) list item paragraph
+                   (0,0,0,0,2) body
+              MixedStyledText('Filter list of teachers using wi...')
+                SingleStyledText('Filter list of teachers using wi...')
+    StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:0 <compound>
+#### DownExpandingContainer('footer')
+  Footer('		7')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('		7')
+      Tab('	')
+      Tab('	')
+      Field('7')
+        SingleStyledText('7')
+---------------------------------- page 8 ----------------------------------
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+#### UpExpandingContainer('header')
+  Header('TEI to JSON Documentation, Relea...')
+       > (0,0,0,0,2) header
+         (0,0,0,0,1) body
+    MixedStyledText('TEI to JSON Documentation, Relea...')
+      Field('TEI to JSON Documentation')
+        SingleStyledText('TEI to JSON Documentation')
+      SingleStyledText(', ')
+      Field('Release 2019')
+        SingleStyledText('Release 2019')
+#### DownExpandingContainer('footer')
+  Footer('8		Chapitre 3.  Endpoints of the...')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('8		Chapitre 3.  Endpoints of the...')
+      Field('8')
+        SingleStyledText('8')
+      Tab('	')
+      Tab('	')
+      StringField('Chapitre')
+      SingleStyledText(' ')
+      Field('3')
+        SingleStyledText('3')
+      SingleStyledText('.  ')
+      Field('Endpoints of the Teacher API')
+        SingleStyledText('Endpoints of the Teacher API')
+---------------------------------- page 9 ----------------------------------
+#### FlowablesContainer('chapter title')
+  Paragraph('CHAPITRE 4', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label
+         (0,0,0,0,2) body
+    MixedStyledText('CHAPITRE 4')
+      MixedStyledText('CHAPITRE ')
+        StringField('CHAPITRE')
+        SingleStyledText(' ')
+      Field('4', style='number')
+           > (0,0,2,0,3) body matter chapter number
+        SingleStyledText('4')
+      Paragraph('TeacherAPI main', style='body matter chapter title')
+           > (0,0,1,0,2) body matter chapter title
+             (0,0,0,0,2) body
+        Field('TeacherAPI main')
+          SingleStyledText('TeacherAPI main')
+  Paragraph('CHAPITRE 4', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label
+         (0,0,0,0,2) body
+    MixedStyledText('CHAPITRE 4')
+      MixedStyledText('CHAPITRE ')
+        StringField('CHAPITRE')
+        SingleStyledText(' ')
+      Field('4', style='number')
+           > (0,0,2,0,3) body matter chapter number
+        SingleStyledText('4')
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+    Section(id='teacherapi-main')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:90 <section>
+         > (0,0,0,1,2) chapter
+#### DownExpandingContainer('footer')
+  Footer('		9')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('		9')
+      Tab('	')
+      Tab('	')
+      Field('9')
+        SingleStyledText('9')
+---------------------------------- page 10 ----------------------------------
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+#### UpExpandingContainer('header')
+  Header('TEI to JSON Documentation, Relea...')
+       > (0,0,0,0,2) header
+         (0,0,0,0,1) body
+    MixedStyledText('TEI to JSON Documentation, Relea...')
+      Field('TEI to JSON Documentation')
+        SingleStyledText('TEI to JSON Documentation')
+      SingleStyledText(', ')
+      Field('Release 2019')
+        SingleStyledText('Release 2019')
+#### DownExpandingContainer('footer')
+  Footer('10		Chapitre 5.  TeacherAPI cont...')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('10		Chapitre 5.  TeacherAPI cont...')
+      Field('10')
+        SingleStyledText('10')
+      Tab('	')
+      Tab('	')
+      StringField('Chapitre')
+      SingleStyledText(' ')
+      Field('5')
+        SingleStyledText('5')
+      SingleStyledText('.  ')
+      Field('TeacherAPI controller')
+        SingleStyledText('TeacherAPI controller')
+---------------------------------- page 11 ----------------------------------
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+    Section(id='teacherapi-controller')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:95 <section>
+         > (0,0,0,1,2) chapter
+      Paragraph('TeacherAPI controller', style='body matter chapter title')
+           > (0,0,1,0,2) body matter chapter title
+             (0,0,0,0,2) body
+#### DownExpandingContainer('footer')
+  Footer('		11')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('		11')
+      Tab('	')
+      Tab('	')
+      Field('11')
+        SingleStyledText('11')
+---------------------------------- page 12 ----------------------------------
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+#### UpExpandingContainer('header')
+  Header('TEI to JSON Documentation, Relea...')
+       > (0,0,0,0,2) header
+         (0,0,0,0,1) body
+    MixedStyledText('TEI to JSON Documentation, Relea...')
+      Field('TEI to JSON Documentation')
+        SingleStyledText('TEI to JSON Documentation')
+      SingleStyledText(', ')
+      Field('Release 2019')
+        SingleStyledText('Release 2019')
+#### DownExpandingContainer('footer')
+  Footer('12		Chapitre 5.  TeacherAPI cont...')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('12		Chapitre 5.  TeacherAPI cont...')
+      Field('12')
+        SingleStyledText('12')
+      Tab('	')
+      Tab('	')
+      StringField('Chapitre')
+      SingleStyledText(' ')
+      Field('5')
+        SingleStyledText('5')
+      SingleStyledText('.  ')
+      Field('TeacherAPI controller')
+        SingleStyledText('TeacherAPI controller')
+---------------------------------- page 13 ----------------------------------
+#### FlowablesContainer('chapter title')
+  Paragraph('CHAPITRE 6', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label
+         (0,0,0,0,2) body
+    MixedStyledText('CHAPITRE 6')
+      MixedStyledText('CHAPITRE ')
+        StringField('CHAPITRE')
+        SingleStyledText(' ')
+      Field('6', style='number')
+           > (0,0,2,0,3) body matter chapter number
+        SingleStyledText('6')
+      Paragraph('TeacherAPI models', style='body matter chapter title')
+           > (0,0,1,0,2) body matter chapter title
+             (0,0,0,0,2) body
+        Field('TeacherAPI models')
+          SingleStyledText('TeacherAPI models')
+  Paragraph('CHAPITRE 6', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label
+         (0,0,0,0,2) body
+    MixedStyledText('CHAPITRE 6')
+      MixedStyledText('CHAPITRE ')
+        StringField('CHAPITRE')
+        SingleStyledText(' ')
+      Field('6', style='number')
+           > (0,0,2,0,3) body matter chapter number
+        SingleStyledText('6')
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+    Section(id='teacherapi-models')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:100 <section>
+         > (0,0,0,1,2) chapter
+#### DownExpandingContainer('footer')
+  Footer('		13')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('		13')
+      Tab('	')
+      Tab('	')
+      Field('13')
+        SingleStyledText('13')
+---------------------------------- page 14 ----------------------------------
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+#### UpExpandingContainer('header')
+  Header('TEI to JSON Documentation, Relea...')
+       > (0,0,0,0,2) header
+         (0,0,0,0,1) body
+    MixedStyledText('TEI to JSON Documentation, Relea...')
+      Field('TEI to JSON Documentation')
+        SingleStyledText('TEI to JSON Documentation')
+      SingleStyledText(', ')
+      Field('Release 2019')
+        SingleStyledText('Release 2019')
+#### DownExpandingContainer('footer')
+  Footer('14		Chapitre 7.  TeacherAPI data...')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('14		Chapitre 7.  TeacherAPI data...')
+      Field('14')
+        SingleStyledText('14')
+      Tab('	')
+      Tab('	')
+      StringField('Chapitre')
+      SingleStyledText(' ')
+      Field('7')
+        SingleStyledText('7')
+      SingleStyledText('.  ')
+      Field('TeacherAPI database')
+        SingleStyledText('TeacherAPI database')
+---------------------------------- page 15 ----------------------------------
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+    Section(id='teacherapi-database')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:105 <section>
+         > (0,0,0,1,2) chapter
+      Paragraph('TeacherAPI database', style='body matter chapter title')
+           > (0,0,1,0,2) body matter chapter title
+             (0,0,0,0,2) body
+#### DownExpandingContainer('footer')
+  Footer('		15')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('		15')
+      Tab('	')
+      Tab('	')
+      Field('15')
+        SingleStyledText('15')
+---------------------------------- page 16 ----------------------------------
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+#### UpExpandingContainer('header')
+  Header('TEI to JSON Documentation, Relea...')
+       > (0,0,0,0,2) header
+         (0,0,0,0,1) body
+    MixedStyledText('TEI to JSON Documentation, Relea...')
+      Field('TEI to JSON Documentation')
+        SingleStyledText('TEI to JSON Documentation')
+      SingleStyledText(', ')
+      Field('Release 2019')
+        SingleStyledText('Release 2019')
+#### DownExpandingContainer('footer')
+  Footer('16		Chapitre 7.  TeacherAPI data...')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('16		Chapitre 7.  TeacherAPI data...')
+      Field('16')
+        SingleStyledText('16')
+      Tab('	')
+      Tab('	')
+      StringField('Chapitre')
+      SingleStyledText(' ')
+      Field('7')
+        SingleStyledText('7')
+      SingleStyledText('.  ')
+      Field('TeacherAPI database')
+        SingleStyledText('TeacherAPI database')
+---------------------------------- page 17 ----------------------------------
+#### FlowablesContainer('chapter title')
+  Paragraph('CHAPITRE 8', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label
+         (0,0,0,0,2) body
+    MixedStyledText('CHAPITRE 8')
+      MixedStyledText('CHAPITRE ')
+        StringField('CHAPITRE')
+        SingleStyledText(' ')
+      Field('8', style='number')
+           > (0,0,2,0,3) body matter chapter number
+        SingleStyledText('8')
+      Paragraph('TeacherAPI populate', style='body matter chapter title')
+           > (0,0,1,0,2) body matter chapter title
+             (0,0,0,0,2) body
+        Field('TeacherAPI populate')
+          SingleStyledText('TeacherAPI populate')
+  Paragraph('CHAPITRE 8', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label
+         (0,0,0,0,2) body
+    MixedStyledText('CHAPITRE 8')
+      MixedStyledText('CHAPITRE ')
+        StringField('CHAPITRE')
+        SingleStyledText(' ')
+      Field('8', style='number')
+           > (0,0,2,0,3) body matter chapter number
+        SingleStyledText('8')
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+    Section(id='teacherapi-populate')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:110 <section>
+         > (0,0,0,1,2) chapter
+#### DownExpandingContainer('footer')
+  Footer('		17')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('		17')
+      Tab('	')
+      Tab('	')
+      Field('17')
+        SingleStyledText('17')
+---------------------------------- page 18 ----------------------------------
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+#### UpExpandingContainer('header')
+  Header('TEI to JSON Documentation, Relea...')
+       > (0,0,0,0,2) header
+         (0,0,0,0,1) body
+    MixedStyledText('TEI to JSON Documentation, Relea...')
+      Field('TEI to JSON Documentation')
+        SingleStyledText('TEI to JSON Documentation')
+      SingleStyledText(', ')
+      Field('Release 2019')
+        SingleStyledText('Release 2019')
+#### DownExpandingContainer('footer')
+  Footer('18		Chapitre 9.  Indices and tab...')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('18		Chapitre 9.  Indices and tab...')
+      Field('18')
+        SingleStyledText('18')
+      Tab('	')
+      Tab('	')
+      StringField('Chapitre')
+      SingleStyledText(' ')
+      Field('9')
+        SingleStyledText('9')
+      SingleStyledText('.  ')
+      Field('Indices and tables')
+        SingleStyledText('Indices and tables')
+---------------------------------- page 19 ----------------------------------
+#### ChainedContainer('column1')
+  (continued) DocumentTree()
+    Section(id='indices-and-tables')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:116 <section>
+         > (0,0,0,1,2) chapter
+      Paragraph('Indices and tables', style='body matter chapter title')
+           > (0,0,1,0,2) body matter chapter title
+             (0,0,0,0,2) body
+      List(style='bulleted')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:118 <bullet_list>
+           > (0,0,1,0,2) bulleted list
+        ListItem()
+             x (0,0,1,0,4) bulleted list item
+             > fallback to default style
+          ListItemLabel('•')
+               > (0,0,1,0,6) bulleted list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('•')
+                SingleStyledText('')
+                SingleStyledText('•')
+                SingleStyledText('')
+          StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:None <list_item>
+               > (0,0,0,0,3) list item body
+            Paragraph('Index')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:118 <paragraph>
+                 > (0,0,0,0,5) list item paragraph
+                   (0,0,0,0,2) body
+              MixedStyledText('Index')
+                AnnotatedText('Index', style='internal link')   None:None <reference>
+                     > (0,0,1,0,1) internal hyperlink
+                  MixedStyledText('Index')
+                    MixedStyledText('Index')   None:None <inline>
+                      SingleStyledText('Index')
+        ListItem()
+             x (0,0,1,0,4) bulleted list item
+             > fallback to default style
+          ListItemLabel('•')
+               > (0,0,1,0,6) bulleted list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('•')
+                SingleStyledText('')
+                SingleStyledText('•')
+                SingleStyledText('')
+          StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:None <list_item>
+               > (0,0,0,0,3) list item body
+            Paragraph('Index du module')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:119 <paragraph>
+                 > (0,0,0,0,5) list item paragraph
+                   (0,0,0,0,2) body
+              MixedStyledText('Index du module')
+                AnnotatedText('Index du module', style='internal link')   None:None <reference>
+                     > (0,0,1,0,1) internal hyperlink
+                  MixedStyledText('Index du module')
+                    MixedStyledText('Index du module')   None:None <inline>
+                      SingleStyledText('Index du module')
+        ListItem()
+             x (0,0,1,0,4) bulleted list item
+             > fallback to default style
+          ListItemLabel('•')
+               > (0,0,1,0,6) bulleted list item label
+                 (0,0,0,0,2) list item label
+              MixedStyledText('•')
+                SingleStyledText('')
+                SingleStyledText('•')
+                SingleStyledText('')
+          StaticGroupedFlowables()   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:None <list_item>
+               > (0,0,0,0,3) list item body
+            Paragraph('Page de recherche')   /Users/myriamelhelou/TEI2JSON/docs/source/index.rst:120 <paragraph>
+                 > (0,0,0,0,5) list item paragraph
+                   (0,0,0,0,2) body
+              MixedStyledText('Page de recherche')
+                AnnotatedText('Page de recherche', style='internal link')   None:None <reference>
+                     > (0,0,1,0,1) internal hyperlink
+                  MixedStyledText('Page de recherche')
+                    MixedStyledText('Page de recherche')   None:None <inline>
+                      SingleStyledText('Page de recherche')
+#### DownExpandingContainer('footer')
+  Footer('		19')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('		19')
+      Tab('	')
+      Tab('	')
+      Field('19')
+        SingleStyledText('19')
+---------------------------------- page 21 ----------------------------------
+#### ChainedContainer('column1')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('footer')
+  Footer('		21')
+       > (0,0,0,0,2) footer
+         (0,0,0,0,1) body
+    MixedStyledText('		21')
+      Tab('	')
+      Tab('	')
+      Field('21')
+        SingleStyledText('21')

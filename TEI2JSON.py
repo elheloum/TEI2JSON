@@ -23,6 +23,7 @@ def create_json(rng_file):
     """
 
     # début du traitement du rng
+
     file = open(rng_file, mode='r', encoding='UTF-8')
     xml = file.read()
     file.close()
@@ -130,8 +131,9 @@ def create_json(rng_file):
             # ajout de la totalité du contenu de l'élement dans le json
             content['elements'].append(element)
 
+    rng_name = rng_file[6:]
     # création du json
-    with open("output/sortie_{0}".format(rng_file) + ".json", mode='w', encoding='UTF-8') as output:
+    with open("output/sortie_{0}".format(rng_name) + ".json", mode='w', encoding='UTF-8') as output:
         output.write(json.dumps(content, indent=4, sort_keys=False, ensure_ascii=False))
 
 
