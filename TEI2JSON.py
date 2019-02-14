@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-@author : Myriam EL HELOU and Sami BOUHOUCHE
-"""
+
+# @author : Myriam EL HELOU and Sami BOUHOUCHE
+
 
 from bs4 import BeautifulSoup
 import json
@@ -19,16 +19,13 @@ def create_json(rng_file):
     """
         **Fonction principale du script**
         
-        Cette fonction permet de convertir une documentation de la TEI en rng (généré depuis ROMA-TEI) au format JSON
-        :return: le contenu du fichier .rng sous format json
-
-        Entrée::
+        Cette fonction permet de convertir une documentation de la TEI en rng (généré depuis ROMA-TEI) au format JSON.
+            
+        Entrée
             
             * rng-file(fichier .rng): fichier rng à traiter. celui-ci doit être  généré à partir de TEI-ROMA.
         
-        Sortie::
-            
-            * rng-file.JSON (fichier .JSON) équivalent JSON de rng-file
+        :return: rng-file.json (fichier .JSON) l'équivalent JSON du contenu du fichier .rng
     """
 
     # début du traitement du rng
@@ -124,7 +121,7 @@ def create_json(rng_file):
             for ref in link.find_all('ref'):
                 name_ref = ref.get("name")
                 if not name_ref.startswith("tei_att"):
-                    resultat = handel_element(soup, name_ref, treated_elt, liste_children)
+                    resultat = handle_element(soup, name_ref, treated_elt, liste_children)
             if resultat:
                 element['childrens'] = resultat
 
