@@ -2,16 +2,18 @@
 # -*- coding: utf-8 -*-
 
 
-def handel_element(soup, name, treated_elt, liste_children):
+def handle_element(soup, name, treated_elt, liste_children):
     """
-        **Fonction permettant de récupèrer les enfants de chaque élément.** 
+        **Extraction des enfants**
         
-        Parametres:: 
+        Fonction permettant de récupèrer les enfants de chaque élément. 
+        
+        Paramètres 
 
-            * soup:: (beautiful soup object) le rng traité 
-            * name:: (string) nom de l'élement traité
-            * treated_elt::(list) liste des éléments déja traités (permet d'éviter de traiter plusieurs fois le même élément)
-            * liste_children:: (list) liste vide 
+            * soup: (beautiful soup object) le rng traité 
+            * name: (string) nom de l'élément traité
+            * treated_elt:(list) liste des éléments déja traités (permet d'éviter de traiter plusieurs fois le même élément)
+            * liste_children: (list) liste vide 
         
         :return: liste_children: (list) liste contenant les enfants
     
@@ -36,7 +38,7 @@ def handel_element(soup, name, treated_elt, liste_children):
         for ref in link.find_all("ref"):
             name_ref = ref.get("name")
             if not name_ref.startswith("tei_att"):
-                handel_element(soup, name_ref, treated_elt, liste_children)
+                handle_element(soup, name_ref, treated_elt, liste_children)
 
     # print(liste_children)
     return liste_children
