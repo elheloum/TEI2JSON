@@ -6,14 +6,23 @@ from collections import OrderedDict
 
 def get_attributs(att, attribute_dict):
     """
-        **Fonction permettant de récupèrer les attributs ainsi que leurs caracterestiques ( clé, type, required et la documentation)**
-
-        Parametres:: 
-
-            * att:: (string) nom de l'attribut dont les valeurs sont récupèrées
-            * attribute_dict:: (OrderedDict) dictionnaire vide 
+        **Extraction des attributs**
         
-        :return: attribute_dict: (OrderedDict) dictionnaire  contenant les caracterestiques de l'attribut 'att'
+        Fonction permettant de récupèrer les attributs ainsi que leurs caractéristiques
+
+        Paramètres :
+
+            * att: (string) nom de l'attribut dont les valeurs sont récupèrées
+            * attribute_dict: (OrderedDict) dictionnaire vide 
+
+        Caractéristiques des attributs: 
+
+            * Clé
+            * Type
+            * Required 
+            * Documentation
+        
+        :return: attribute_dict: (OrderedDict) dictionnaire contenant les caractéristiques des attributs de l'élément traité
         
     """
     name_att = att.get('name')
