@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
-# @author : Myriam EL HELOU and Sami BOUHOUCHE
-
-
 from bs4 import BeautifulSoup
 import json
 from collections import OrderedDict
