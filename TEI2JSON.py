@@ -19,11 +19,14 @@ def create_json(rng_file):
     """
         **Fonction principale du script**
         
-        Cette fonction permet de convertir une documentation de la TEI en rng (généré depuis ROMA-TEI) au format JSON.
+        Cette fonction permet de convertir une documentation de la TEI sous le format Relax NG Schema ou .rng (généré depuis https://roma2.tei-c.org/) en format JSON.
             
         Entrée
             
-            * rng-file(fichier .rng): fichier rng à traiter. celui-ci doit être  généré à partir de TEI-ROMA.
+            * rng-file(fichier .rng): fichier rng à traiter. celui-ci doit être  généré à partir de TEI-ROMA. Il doit contenir au minimum et obligatoirement les 3 modules suivants : 
+                * Core
+                * Header
+                * Textstructure
         
         :return: rng-file.json (fichier .JSON) l'équivalent JSON du contenu du fichier .rng
     """

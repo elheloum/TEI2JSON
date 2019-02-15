@@ -7,8 +7,8 @@ from collections import OrderedDict
 def get_attributs(att, attribute_dict):
     """
         **Extraction des attributs**
-        
-        Fonction permettant de récupèrer les attributs ainsi que leurs caractéristiques
+
+        Cette fonction permet de récupèrer les attributs ainsi que leurs caractéristiques
 
         Paramètres :
 
