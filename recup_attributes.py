@@ -20,7 +20,7 @@ def get_attributs(att, attribute_dict):
             * Clé
             * Type
             * Required 
-            * Documentation
+            * Documentation en FR ou en EN
         
         :return: attribute_dict: (OrderedDict) dictionnaire contenant les caractéristiques des attributs de l'élément traité
         
