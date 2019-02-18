@@ -5,8 +5,6 @@ from bs4 import BeautifulSoup
 import json
 from collections import OrderedDict
 import sys
-import requests
-import csv
 from recup_children import *
 from recup_attributes import *
 
