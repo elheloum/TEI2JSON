@@ -4,7 +4,7 @@ TEI2JSON is a Python script that allows its user to convert a TEI documentation 
 
 ## Installation
 
-To use this script, you need python3. You also needs to install requirements.txt :
+To use this script, you need python3. You also need to install requirements.txt :
 
 ```bash
 pip install -r requirements.txt
@@ -18,12 +18,13 @@ To test the script, the user can use one of the following files as an input file
 
 ## Usage
 
-For the instance, the script is works perfectly from the IDE : PyCharm or Spyder.
-Therefore, to get the perfect result, it should be launched from one of those IDE.
+This project contains 3 scripts:TEI2JSON.py, recup_attributes and recup_children. 
+- TEI2JSON.py is the main script (the one that should be launched) .
+- recup_attributes and recup_children are support scripts which contain functions that are called by TEI2JSON.py.
+  
+The script works perfectly from an IDE like PyCharm or Spyder or directly from the the command prompt.  
 
-The script contains 2 methods. It is fundamental to launch the first method (def file_tag(rng_file)) before the second one.
-
-To launch with a command line :
+Thus, you can run the converter by launching the main script from the command prompt, using the line :
 ```python
 python TEI2JSON.py <name_of_an_rng_file>
 ```
@@ -31,6 +32,7 @@ For example :
 ```python
 python TEI2JSON.py input/myTEI-3.rng
 ```
+or you can launch it directly from the IDE of your choice.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
