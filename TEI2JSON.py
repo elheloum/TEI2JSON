@@ -43,16 +43,7 @@ def create_json(rng_file):
             print("-- traitement de l'élément", name, "--")
             # attribuer à l'élement tag du json le nom de l'élement comme valeur
             element['tag'] = name
-
-            # chercher le module auquel appartient l'élément
-            element['module'] = []
-            print("## traitement du module de l'élément", name, "##")
-            with open('file_modules.csv', 'r') as csvfile:
-                file_modules = csv.reader(csvfile, delimiter='\t')
-                for row in file_modules:
-                    if row[0] == name:
-                        element['module'] = row[1]
-
+            
             # chercher la documentation de l'élement
             element['documentation'] = []
             documentation = link.find({"a:documentation"})
