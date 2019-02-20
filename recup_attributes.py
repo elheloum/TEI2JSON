@@ -30,14 +30,14 @@ def get_attributs(att, attribute_dict):
         choice = att.find('choice')
         liste_values = []
         if choice:
-            type = 'enumerated'
+            type = 'Enumerated'
             for value in choice.find_all('value'):
                 if value.string == None:
                     pass
                 else:
                     liste_values.append(value.string)
         else:
-            type = 'string'
+            type = 'String'
         attribute_dict['key'] = name_att
         attribute_dict['type'] = type
         attribute_dict['required'] = False
