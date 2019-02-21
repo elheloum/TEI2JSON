@@ -1,0 +1,225 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Le projet &#8212; Documentation TEI to JSON 2019</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="le-projet">
+<h1>Le projet<a class="headerlink" href="#le-projet" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="description">
+<h2>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Comme son nom l’indique, le projet permet de générer des documents au format JSON à partir de documents de définition de la TEI (au format .rng). Ces documents de sortie contiendront :</p>
+<ul class="simple">
+<li>Les balises TEI correspondant à un certain module</li>
+<li>Les descriptions/documentations des balises TEI</li>
+<li>Les attributs ainsi que leurs valeurs</li>
+<li>Les enfants autorisés pour chaque balise</li>
+</ul>
+<p>Il est composé de 3 modules qui seront détaillés ultérieurement.</p>
+</div>
+<div class="section" id="langage">
+<h2>Langage<a class="headerlink" href="#langage" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Ce projet a été entièrement développé en Python 3.5</p>
+</div>
+</div>
+<div class="section" id="configuration-de-l-environnement">
+<h1>Configuration de l’environnement<a class="headerlink" href="#configuration-de-l-environnement" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="processus-d-installation-et-de-lancement">
+<h2>Processus d’installation et de lancement<a class="headerlink" href="#processus-d-installation-et-de-lancement" title="Lien permanent vers ce titre">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Configurer l’environnement pour un bon fonctionnement</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Lancer la conversion depuis un terminal</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">TEI2JSON</span><span class="o">.</span><span class="n">py</span> <span class="nb">input</span><span class="o">/&lt;</span><span class="n">nom_d_un_fichier_rng</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="description-des-modules">
+<h2>Description des modules<a class="headerlink" href="#description-des-modules" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="toctree-wrapper compound">
+</div>
+<span class="target" id="module-TEI2JSON"></span><dl class="function">
+<dt id="TEI2JSON.create_json">
+<code class="descclassname">TEI2JSON.</code><code class="descname">create_json</code><span class="sig-paren">(</span><em>rng_file</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/TEI2JSON.html#create_json"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#TEI2JSON.create_json" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p><strong>Fonction principale du script</strong></p>
+<p>Cette fonction permet de convertir une documentation de la TEI sous le format Relax NG Schema ou .rng (généré depuis <a class="reference external" href="https://roma2.tei-c.org/">https://roma2.tei-c.org/</a>) en format JSON.</p>
+<p>Entrée</p>
+<blockquote>
+<div><ul class="simple">
+<li><dl class="first docutils">
+<dt>rng-file(fichier .rng): fichier rng à traiter. celui-ci doit être  généré à partir de TEI-ROMA. Il doit contenir au minimum et obligatoirement les 3 modules suivants <span class="classifier-delimiter">:</span> <span class="classifier"></span></dt>
+<dd><ul class="first last">
+<li>Core</li>
+<li>Header</li>
+<li>Textstructure</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Renvoie:</th><td class="field-body">rng-file.json (fichier .JSON) l’équivalent JSON du contenu du fichier .rng</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<span class="target" id="module-recup_attributes"></span><dl class="function">
+<dt id="recup_attributes.get_attributs">
+<code class="descclassname">recup_attributes.</code><code class="descname">get_attributs</code><span class="sig-paren">(</span><em>att</em>, <em>attribute_dict</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/recup_attributes.html#get_attributs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#recup_attributes.get_attributs" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p><strong>Extraction des attributs</strong></p>
+<p>Cette fonction permet de récupèrer les attributs ainsi que leurs caractéristiques</p>
+<p>Paramètres :</p>
+<blockquote>
+<div><ul class="simple">
+<li>att: (string) nom de l’attribut dont les valeurs sont récupèrées</li>
+<li>attribute_dict: (OrderedDict) dictionnaire vide</li>
+</ul>
+</div></blockquote>
+<p>Caractéristiques des attributs:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Clé</li>
+<li>Type</li>
+<li>Required</li>
+<li>Documentation</li>
+</ul>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Renvoie:</th><td class="field-body">attribute_dict: (OrderedDict) dictionnaire contenant les caractéristiques des attributs de l’élément traité</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<span class="target" id="module-recup_children"></span><dl class="function">
+<dt id="recup_children.handle_element">
+<code class="descclassname">recup_children.</code><code class="descname">handle_element</code><span class="sig-paren">(</span><em>soup</em>, <em>name</em>, <em>treated_elt</em>, <em>liste_children</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/recup_children.html#handle_element"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#recup_children.handle_element" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p><strong>Extraction des enfants</strong></p>
+<p>Fonction permettant de récupèrer les enfants de chaque élément.</p>
+<p>Paramètres</p>
+<blockquote>
+<div><ul class="simple">
+<li>soup: (beautiful soup object) le rng traité</li>
+<li>name: (string) nom de l’élément traité</li>
+<li>treated_elt:(list) liste des éléments déja traités (permet d’éviter de traiter plusieurs fois le même élément)</li>
+<li>liste_children: (list) liste vide</li>
+</ul>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Renvoie:</th><td class="field-body">liste_children: (list) liste contenant les enfants</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Lien permanent vers ce titre">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Index du module</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Page de recherche</span></a></li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">TEI to JSON</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Recherche rapide</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, EL HELOU and BOUHOUCHE.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/documentation.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
