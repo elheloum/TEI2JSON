@@ -32,6 +32,15 @@ For example :
 ```python
 python TEI2JSON.py input/myTEI-3.rng
 ```
+
+If you have both Python 2 and Python 3 on your machine, use this line:
+```python
+python3 TEI2JSON.py <name_of_an_rng_file>
+```
+For example :
+```python
+python3 TEI2JSON.py input/myTEI-3.rng
+```
 or you can launch it directly from the IDE of your choice.
 
 ## Documentation
