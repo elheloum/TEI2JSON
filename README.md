@@ -13,8 +13,8 @@ pip install -r requirements.txt
 ## Input
 
 To test the script, the user can use one of the following files as an input file :
-- input/myTEI-3.rng
-- input/myTEI-4.rng
+- input/myTEI-3_FR.rng
+- input/myTEI-4_FR.rng
 
 ## Usage
 
