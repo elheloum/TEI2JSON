@@ -36,7 +36,7 @@ or you can launch it directly from the IDE of your choice.
 
 ## Documentation
 
-To read the documentation of the project please click on the link below : 
+To read the documentation of the project please follow the link below : 
 [Documentation/documentation.html](Documentation/documentation.html)
 
 ## Contributing
