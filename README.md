@@ -37,7 +37,7 @@ or you can launch it directly from the IDE of your choice.
 ## Documentation
 
 To read the documentation of the project please click on the link below : 
-[Documentation](Documentation/documentation.html)
+[Documentation]('./Documentation/documentation.html')
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
