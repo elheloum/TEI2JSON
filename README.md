@@ -1,6 +1,6 @@
 # TEI2JSON
 
-TEI2JSON is a Python script that allows its user to convert a TEI documentation (extracted from : http://roma.tei-c.org) into a json encoded document. 
+TEI2JSON is a Python script that allows its user to convert a TEI documentation (extracted from : http://roma2.tei-c.org) into a json encoded document. 
 
 ## Installation
 
