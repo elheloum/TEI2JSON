@@ -101,7 +101,7 @@ def create_json(rng_file):
 
             '''récupération des "enfants" '''
             # création de l'élement childrens dans le json
-            element['childrens'] = []
+            element['children'] = []
             treated_elt = set()
             liste_children = []
             resultat = []
@@ -111,7 +111,7 @@ def create_json(rng_file):
                 if not name_ref.startswith("tei_att"):
                     resultat = handle_element(soup, name_ref, treated_elt, liste_children)
             if resultat:
-                element['childrens'] = resultat
+                element['children'] = resultat
 
             # ajout de la totalité du contenu de l'élement dans le json
             content['elements'].append(element)
